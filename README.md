@@ -6,3 +6,11 @@ Repositorio del segundo proyecto.
 ### Paul Hayward
 ### Ivan Mena
 ### Tamara Villagra
+
+--- 
+
+## Librerias usadas
+
+### Animate.css (https://animate.style)
+### SweetAlert (https://sweetalert2.github.io)
+### JSON-Server (https://www.npmjs.com/package/json-server?activeTab=readme)
