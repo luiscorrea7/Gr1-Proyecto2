@@ -19,7 +19,7 @@
   <!-- main -->
   <main>
     <div class="d-flex">
-      <button type="button" class="btn btn-primary justify-content-center" data-bs-toggle="modal" data-bs-target="#modalA">Ingresar</button>
+      <button type="button" class="btn btn-primary justify-content-center customModalBtn" data-bs-toggle="modal" data-bs-target="#modalA">Ingresar</button>
     </div>
   </main>
 
@@ -29,25 +29,24 @@
   <!-- modal -->
   <div class="modal fade" id="modalA" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="modal1">Ingresar</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-content bodyModal">
+        <div class="modal-header footerHeaderModal">
+          <h1 class="modal-title fs-5 animate__animated animate__flipInY" id="modal1">Ingresar</h1>
         </div>
         <div class="modal-body">
           <form id="form1">
             <div class="mb-3">
-              <label for="emailInput" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="emailInput" name="email">
+              <label for="emailInput" class="form-label animate__animated animate__flipInY">Correo</label>
+              <input type="email" class="form-control" id="emailInput" name="email" required>
             </div>
             <div class="mb-3">
-              <label for="passInput" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="passInput" name="password">
+              <label for="passInput" class="form-label animate__animated animate__flipInY">Contraseña</label>
+              <input type="password" class="form-control" id="passInput" name="password" required>
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <button type="submit" for="form1" class="btn btn-primary">Enviar</button>
+          <div class="modal-footer footerHeaderModal">
+            <button type="button" class="btn customModalBtn2 animate__animated animate__flipInY" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" for="form1" class="btn customModalBtn animate__animated animate__flipInY">Enviar</button>
           </div>
         </form>
       </div>

@@ -1,0 +1,28 @@
+.bodyModal {
+  background-color: #784BC3;
+  color: white;
+}
+
+.footerHeaderModal {
+  background-color: #200152;
+}
+
+.customModalBtn {
+  background-color: #784BC3;
+  color: white;
+}
+
+.customModalBtn2 {
+  background-color: #290465;
+  color: white;
+}
+
+.customModalBtn2:hover {
+  background-color: white;
+  color: red;
+}
+
+.customModalBtn:hover {
+  background-color: white;
+  color: green;
+}
