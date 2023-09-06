@@ -1,6 +1,6 @@
+import alertas from "./components/sweetalert2.js";
 
 const formLogin = document.getElementById('form1')
-console.log(formLogin);
 
 const getUserData = async () => {
   try {
@@ -18,22 +18,17 @@ const login = async (e) => {
  const userData = await getUserData();
  const dataFormulario = new FormData(e.target);
  const finalData = Object.fromEntries(dataFormulario.entries());
- console.table(finalData)
  // Validacion
  if (userData.email === finalData.email && userData.password === finalData.password) {
-  Swal.fire({
-    icon: 'error',
-    title: 'Oops...',
-    text: 'Something went wrong!',
-  })
+  alertas.loginSuccess();
  }
 
  if (userData.email !== finalData.email) {
-  alert('este usuario no existe')
+  alertas.badLogin();
  }
 
  if (userData.email === finalData.email && userData.password !== finalData.password) {
-  alert('su contraseña esta mal')
+  alertas.badPassword();
  }
 }
 
