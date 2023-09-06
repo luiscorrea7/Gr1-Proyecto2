@@ -1,7 +1,5 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
+  "adminUser": { "id": 1, "email": "admin@a.admin", "password": "admin" },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],

@@ -17,14 +17,47 @@
   <header>...</header>
 
   <!-- main -->
-  <main>...</main>
+  <main>
+    <div class="d-flex">
+      <button type="button" class="btn btn-primary justify-content-center customModalBtn" data-bs-toggle="modal" data-bs-target="#modalA">Ingresar</button>
+    </div>
+  </main>
 
   <!-- footer -->
   <footer>...</footer>
 
+  <!-- modal -->
+  <div class="modal fade" id="modalA" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bodyModal">
+        <div class="modal-header footerHeaderModal">
+          <h1 class="modal-title fs-5 animate__animated animate__flipInY" id="modal1">Ingresar</h1>
+        </div>
+        <div class="modal-body">
+          <form id="form1">
+            <div class="mb-3">
+              <label for="emailInput" class="form-label animate__animated animate__flipInY">Correo</label>
+              <input type="email" class="form-control" id="emailInput" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="passInput" class="form-label animate__animated animate__flipInY">Contraseña</label>
+              <input type="password" class="form-control" id="passInput" name="password" required>
+            </div>
+          </div>
+          <div class="modal-footer footerHeaderModal">
+            <button type="button" class="btn customModalBtn2 animate__animated animate__flipInY" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" for="form1" class="btn customModalBtn animate__animated animate__flipInY">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="Js/main.js"></script>
+  <script type="module" src="Js/components/sweetalert2.js"></script>
+  <script type="module" src="Js/main.js"></script>
+  <script type="module" src="Js/login.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
