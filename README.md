@@ -23,10 +23,10 @@ Repositorio del segundo proyecto.
 
 ## Tecnologias usadas 
 
-+HTML5 & CSS
-+JavaScript
-+Git & GitHub
-+Figma
-+Trello
-+Slack
-+Node.Js & NPM
+- HTML5 & CSS
+- JavaScript
+- Git & GitHub
+- Figma
+- Trello
+- Slack
+- Node.Js & NPM
