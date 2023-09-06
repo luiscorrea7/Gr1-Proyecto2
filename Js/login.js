@@ -1,3 +1,4 @@
+
 const formLogin = document.getElementById('form1')
 console.log(formLogin);
 
@@ -20,8 +21,11 @@ const login = async (e) => {
  console.table(finalData)
  // Validacion
  if (userData.email === finalData.email && userData.password === finalData.password) {
-  alert('hola')
-  window.location.reload();
+  Swal.fire({
+    icon: 'error',
+    title: 'Oops...',
+    text: 'Something went wrong!',
+  })
  }
 
  if (userData.email !== finalData.email) {
