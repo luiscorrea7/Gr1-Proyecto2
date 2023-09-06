@@ -1,4 +1,4 @@
-const formLogin = document.getElementById('form1');
+const formLogin = document.getElementById('form1')
 console.log(formLogin);
 
 const getUserData = async () => {
@@ -32,3 +32,5 @@ const login = async (e) => {
   alert('su contraseña esta mal')
  }
 }
+
+formLogin.addEventListener('submit', login, false)
