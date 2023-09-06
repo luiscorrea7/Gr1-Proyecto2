@@ -13,7 +13,7 @@ Repositorio del segundo proyecto.
 
 ### Animate.css (https://animate.style)
 ### SweetAlert (https://sweetalert2.github.io)
-### JSON-Server (https://www.npmjs.com/package/json-server?activeTab=readme)
+### JSON-Server (https://www.npmjs.com/package/json-server)
 
 ---
 
