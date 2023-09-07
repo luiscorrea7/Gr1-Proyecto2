@@ -14,7 +14,7 @@ const printItems = async () => {
   productInfo.map((product) => {
     let containerCard = document.getElementById('cardContainer');
     let card = document.createElement('div');
-    card.classList = `card col-3 m-3 g-0 justify-content-center cardProduct ${product.category}`
+    card.classList = `card col-4 m-3 g-0 justify-content-center cardProduct ${product.category}`
     card.innerHTML =`
     <img src="https://picsum.photos/200" class="card-img-top" alt="...">
     <div class="card-body">
@@ -28,6 +28,8 @@ const printItems = async () => {
 }
 
 printItems();
+// Categoria todos
+let btncAll = document.getElementById('btnCategoryAll')
 
 const printAllCategories = () => {
   let elementos = document.querySelectorAll('.card')
@@ -36,6 +38,10 @@ const printAllCategories = () => {
   });
 }
 
+btncAll.addEventListener('click', printAllCategories, false)
+// Categoria 1
+let btnC1 = document.getElementById('btnCategory1')
+
 const filterCategory1 = () => {
   let elementos = document.querySelectorAll('.hola2')
   elementos.forEach(x => {
@@ -43,9 +49,15 @@ const filterCategory1 = () => {
   });
 }
 
+btnC1.addEventListener('click', filterCategory1, false)
+// Categoria 2
+let btnC2 = document.getElementById('btnCategory2')
+
 const filterCategory2 = () => {
   let elementos = document.querySelectorAll('.hola')
   elementos.forEach(x => {
     x.style.display = 'none';
   });
 }
+
+btnC2.addEventListener('click', filterCategory2, false)
