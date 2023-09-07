@@ -16,11 +16,11 @@ const printItems = async () => {
     let card = document.createElement('div');
     card.classList =`card col-4 m-3 g-0 justify-content-center cardProduct ${product.category} animate__animated`
     card.innerHTML =`
-    <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-    <div class="card-body">
+    <img src="${product.img}" class="card-img-top" alt="...">
+    <div class="card-body text-center">
       <h3 class="productName fw-bold fs-4">${product.name}</h3>
       <p class="productCategory fs-5">${product.category}</p>
-      <p class="productPrice fs-6 fw-bolder">$${product.price}</p>
+      <p class="productPrice fs-5 fw-bolder">$${product.price}</p>
       <a href="#" class="btn btnCustomCard">ver</a>
     </div>`;
     containerCard.appendChild(card);
