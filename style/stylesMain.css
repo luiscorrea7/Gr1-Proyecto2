@@ -30,3 +30,12 @@
 .iconoModal {
   width: 60px;
 }
+
+.cardProduct {
+  width: 14rem;
+}
+
+.cardProduct > img {
+  width: 100%;
+  height: 180px;
+}
