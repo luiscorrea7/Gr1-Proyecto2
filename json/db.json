@@ -65,6 +65,14 @@
       "img":"",
       "stock": 0,
       "category":"hola2"
+    },
+    { "id": 9,
+      "name": "product 4",
+      "price": 999,
+      "description":"lorem ipsum",
+      "img":"",
+      "stock": 0,
+      "category":"hola2"
     }
   ]
 }

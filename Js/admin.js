@@ -18,13 +18,13 @@ const printItems = async () => {
     card.innerHTML =`
     <img src="https://picsum.photos/200" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">${product.name}</h5>
-      <h4 class="card-title">${product.category}</h4>
-      <h4 class="card-title">${product.price}</h4>
-      <a href="#" class="btn btn-primary">comprar</a>
+      <h3 class="productName fw-bold fs-4">${product.name}</h3>
+      <p class="productCategory fs-5">${product.category}</p>
+      <p class="productPrice fs-6 fw-bolder">$${product.price}</p>
+      <a href="#" class="btn btnCustomCard">ver</a>
     </div>`;
     containerCard.appendChild(card);
-    card.addEventListener('mouseover', (e) => {
+    card.addEventListener('mousemove', (e) => {
       card.classList.add('animate__pulse')
     })
   })

@@ -46,6 +46,13 @@ body {
 
 .cardProduct {
   width: 14rem;
+  background-color: #4a199a;
+  color: white;
+}
+
+.btnCustomCard {
+  background-color: #fff;
+  width: 100%;
 }
 
 .cardProduct > img {
@@ -70,7 +77,7 @@ body {
 
 .btnCustomAside{
   background-color: #fff;
-  width: 98%;
+  width: 100%;
 }
 
 #asideContainer > div > img {
