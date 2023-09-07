@@ -14,16 +14,19 @@ const printItems = async () => {
   productInfo.map((product) => {
     let containerCard = document.getElementById('cardContainer');
     let card = document.createElement('div');
-    card.classList = `card col-4 m-3 g-0 justify-content-center cardProduct ${product.category}`
+    card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${product.category} animate__animated`
     card.innerHTML =`
-    <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">${product.name}</h5>
-      <h4 class="card-title">${product.category}</h4>
-      <h4 class="card-title">${product.price}</h4>
-      <a href="#" class="btn btn-primary">comprar</a>
+    <img src="${product.img}" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+      <h3 class="productName fw-bold fs-4">${product.name}</h3>
+      <p class="productCategory fs-5">${product.category}</p>
+      <p class="productPrice fs-5 fw-bolder">$${product.price}</p>
+      <a href="#" class="btn btnCustomCard">ver</a>
     </div>`;
     containerCard.appendChild(card);
+    card.addEventListener('mousemove', (e) => {
+      card.classList.add('animate__pulse')
+    })
   })
 }
 

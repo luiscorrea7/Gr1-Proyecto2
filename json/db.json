@@ -3,18 +3,18 @@
 
   "products": [
     { "id": 1,
-      "name": "product 1",
+      "name": "Astro A30",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
-      "category":"hola"
+      "category":"Auriculares"
     },
     { "id": 2,
       "name": "product 2",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola"
     },
@@ -22,7 +22,7 @@
       "name": "product 3",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola"
     },
@@ -30,7 +30,7 @@
       "name": "product 4",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola2"
     },
@@ -38,7 +38,7 @@
       "name": "product 1",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola"
     },
@@ -46,7 +46,7 @@
       "name": "product 2",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola2"
     },
@@ -54,7 +54,7 @@
       "name": "product 3",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola"
     },
@@ -62,7 +62,15 @@
       "name": "product 4",
       "price": 999,
       "description":"lorem ipsum",
-      "img":"",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
+      "stock": 0,
+      "category":"hola2"
+    },
+    { "id": 8,
+      "name": "product 4",
+      "price": 999,
+      "description":"lorem ipsum",
+      "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category":"hola2"
     }
