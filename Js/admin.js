@@ -14,7 +14,7 @@ const printItems = async () => {
   productInfo.map((product) => {
     let containerCard = document.getElementById('cardContainer');
     let card = document.createElement('div');
-    card.classList = `card col-4 m-3 g-0 justify-content-center cardProduct ${product.category}`
+    card.classList =`card col-4 m-3 g-0 justify-content-center cardProduct ${product.category} animate__animated`
     card.innerHTML =`
     <img src="https://picsum.photos/200" class="card-img-top" alt="...">
     <div class="card-body">
@@ -24,6 +24,9 @@ const printItems = async () => {
       <a href="#" class="btn btn-primary">comprar</a>
     </div>`;
     containerCard.appendChild(card);
+    card.addEventListener('mouseover', (e) => {
+      card.classList.add('animate__pulse')
+    })
   })
 }
 
