@@ -77,8 +77,8 @@ const createItemList = async () => {
     itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
     <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
      <div>
-      <button class="btn btn-sm btn-primary">editar</button>
-      <button class="btn btn-sm btn-primary">eliminar</button>
+      <button class="btn btn-sm customOffcanvaBtn">editar</button>
+      <button class="btn btn-sm customOffcanvaBtn">eliminar</button>
      </div>`
     listAdmin.appendChild(itemList)
   })

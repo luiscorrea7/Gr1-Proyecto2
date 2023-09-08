@@ -3,7 +3,7 @@
 
   "products": [
     { "id": 1,
-      "name": "Astro A30",
+      "name": "Astro A10",
       "price": 999,
       "description":"lorem ipsum",
       "img":"https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",

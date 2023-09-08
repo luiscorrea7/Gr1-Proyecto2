@@ -111,6 +111,13 @@ body {
   padding: 10px;
 }
 
+.createItemDiv {
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+
 .listTitle {
   background-color: #290465;
   color: white;
