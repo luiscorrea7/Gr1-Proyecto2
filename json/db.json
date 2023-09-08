@@ -15,49 +15,13 @@
       "category": "Auriculares"
     },
     {
-      "id": 4,
-      "name": "product 4",
-      "price": 999,
+      "name": "testeo backend 1",
+      "price": "777",
       "description": "lorem ipsum",
       "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
-      "stock": 0,
-      "category": "hola2"
-    },
-    {
-      "id": 5,
-      "name": "product 1",
-      "price": 999,
-      "description": "lorem ipsum",
-      "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
-      "stock": 0,
-      "category": "hola"
-    },
-    {
-      "id": 6,
-      "name": "product 2",
-      "price": 999,
-      "description": "lorem ipsum",
-      "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
-      "stock": 0,
-      "category": "hola2"
-    },
-    {
-      "id": 7,
-      "name": "product 3",
-      "price": 999,
-      "description": "lorem ipsum",
-      "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
-      "stock": 0,
-      "category": "hola"
-    },
-    {
-      "id": 8,
-      "name": "product 4",
-      "price": 999,
-      "description": "lorem ipsum",
-      "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
-      "stock": 0,
-      "category": "hola2"
+      "stock": "7",
+      "category": "Auriculares",
+      "id": 2
     }
   ]
 }
