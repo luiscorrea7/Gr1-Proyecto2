@@ -94,3 +94,26 @@ body {
   width: 128px;
   height: 128px;
 }
+
+.bodyAboutUs {
+  background-color: #784BC3;
+}
+
+.containerTitle {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+
+}
+.containerTitle h1 {
+  border-bottom: 2px solid ;
+}
+
+.logoTitle {
+  width: 120px;
+  height: 120px;
+}
+
+.containerInfoP {
+  border-radius: 8px;
+}
