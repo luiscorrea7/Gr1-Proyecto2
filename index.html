@@ -71,6 +71,30 @@
     </div>
   </div>
 
+  <!-- OffCanva -->
+  <button class="btn customOffcanvaBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin">
+    Panel de administrador
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvaAdmin" aria-labelledby="offCanvaTitle">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offCanvaTitle">Panel de administrador</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="d-flex justify-content-center">
+        <div>
+          <img src="assets/icons/main-logo-black-transparent.png" alt="logo TecnoRCS" class="iconOffcanva">
+        </div>
+      </div>
+      <div class="listDiv mt-3 container">
+        <ul id="listAdmin">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script type="module" src="Js/components/sweetalert2.js"></script>

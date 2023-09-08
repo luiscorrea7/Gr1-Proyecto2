@@ -64,3 +64,24 @@ const filterCategory2 = () => {
 }
 
 btnC2.addEventListener('click', filterCategory2, false)
+
+// lista adminpanel
+
+const createItemList = async () => {
+  getItemInfo = await getProducts();
+  getItemInfo.map((item) => {
+    console.log(item.name)
+    let listAdmin = document.getElementById('listAdmin')
+    let itemList = document.createElement('li');
+    itemList.classList = 'd-flex justify-content-between align-content-center mb-3'
+    itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
+    <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
+     <div>
+      <button class="btn btn-sm btn-primary">editar</button>
+      <button class="btn btn-sm btn-primary">eliminar</button>
+     </div>`
+    listAdmin.appendChild(itemList)
+  })
+};
+
+createItemList()

@@ -94,3 +94,13 @@ body {
   width: 128px;
   height: 128px;
 }
+
+.customOffcanvaBtn {
+  background-color: #784BC3;
+  color: white;
+}
+
+.iconOffcanva {
+  width: 150px;
+  height: 150px;
+}
