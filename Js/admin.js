@@ -85,3 +85,9 @@ const createItemList = async () => {
 };
 
 createItemList()
+
+const deleteItemOfList = async (idItem) => {
+  await fetch(`http://localhost:3000/products/${idItem}`, {
+  method: 'DELETE',
+});
+}
