@@ -73,7 +73,7 @@ const createItemList = async () => {
     console.log(item.name)
     let listAdmin = document.getElementById('listAdmin')
     let itemList = document.createElement('li');
-    itemList.classList = 'd-flex justify-content-between align-content-center mb-3'
+    itemList.classList = 'd-flex justify-content-between align-content-center mb-3 text-white listTitle'
     itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
     <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
      <div>
