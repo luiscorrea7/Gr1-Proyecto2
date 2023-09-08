@@ -64,3 +64,56 @@ const filterCategory2 = () => {
 }
 
 btnC2.addEventListener('click', filterCategory2, false)
+
+// borrar item
+const deleteItemOfList = async (idItem) => {
+  await fetch(`http://localhost:3000/products/${idItem}`, {
+    method: 'DELETE',
+  });
+}
+
+// crear item
+const itemFormData = document.getElementById('formProduct1');
+
+const createItem = async (e) => {
+  e.preventDefault();
+  const dataItem = new FormData(e.target);
+  const finalItem = Object.fromEntries(dataItem.entries());
+  await fetch('http://localhost:3000/products', {
+  method: 'POST',
+  body: JSON.stringify({
+    name: `${finalItem.Pname}`,
+    price: `${parseInt(finalItem.Pprice)}`,
+    description: `${finalItem.Pdesc}`,
+    img: 'https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg',
+    stock: `${parseInt(finalItem.Pstock)}`,
+    category: `${finalItem.Pcats}`,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+}
+
+itemFormData.addEventListener('submit', createItem, false)
+
+// lista adminpanel
+const createItemList = async () => {
+  getItemInfo = await getProducts();
+  getItemInfo.map((item) => {
+    let listAdmin = document.getElementById('listAdmin')
+    let itemList = document.createElement('li');
+    itemList.classList = 'd-flex justify-content-between align-content-center mb-3 text-white listTitle'
+    itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
+    <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
+     <div>
+      <button class="btn btn-sm customOffcanvaBtn">editar</button>
+      <button class="btn btn-sm customOffcanvaBtn" onclick="deleteItemOfList(${item.id})">eliminar</button>
+     </div>`
+    listAdmin.appendChild(itemList)
+  })
+};
+
+createItemList()

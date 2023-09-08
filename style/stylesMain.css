@@ -94,3 +94,33 @@ body {
   width: 128px;
   height: 128px;
 }
+
+.customOffcanvaBtn {
+  background-color: #784BC3;
+  color: white;
+}
+
+.iconOffcanva {
+  width: 150px;
+  height: 150px;
+}
+
+.listDiv {
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.createItemDiv {
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+
+.listTitle {
+  background-color: #290465;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}

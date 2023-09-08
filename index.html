@@ -71,6 +71,56 @@
     </div>
   </div>
 
+  <!-- OffCanva -->
+  <button class="btn customOffcanvaBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin">
+    Panel de administrador
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvaAdmin" aria-labelledby="offCanvaTitle">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offCanvaTitle">Panel de administrador</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="d-flex justify-content-center">
+        <div>
+          <img src="assets/icons/main-logo-black-transparent.png" alt="logo TecnoRCS" class="iconOffcanva">
+        </div>
+      </div>
+      <div class="listDiv mt-3 container">
+        <h5 class="text-center mb-5 listTitle">Editar/Eliminar productos</h5>
+        <ul id="listAdmin" class="p-0">
+        </ul>
+      </div>
+      <div class="createItemDiv mt-3 container">
+        <h5 class="text-center mb-2 listTitle">Cargar producto</h5>
+        <form id="formProduct1">
+          <div class="listTitle text-center mb-2">
+            <label class="form-label text-white px-1 fw-bold fs-6" for="productName">Nombre</label>
+            <input class="form-control" type="text" id="productName" name="Pname" required>
+          </div>
+          <div class="listTitle text-center mb-2">
+            <label class="form-label text-white px-1 fw-bold fs-6" for="productPrice">Precio</label>
+            <input class="form-control" type="text" id="productPrice" name="Pprice" required>
+          </div>
+          <div class="listTitle text-center mb-2">
+            <label class="form-label text-white px-1 fw-bold fs-6" for="productDesc">Descripcion</label>
+            <input class="form-control" type="text" id="productDesc" name="Pdesc" required>
+          </div>
+          <div class="listTitle text-center mb-2">
+            <label class="form-label text-white px-1 fw-bold fs-6" for="productStock">Stock</label>
+            <input class="form-control" type="text" id="productStock" name="Pstock" required>
+          </div>
+          <div class="listTitle text-center mb-2">
+            <label class="form-label text-white px-1 fw-bold fs-6" for="productCategory">Categoria</label>
+            <input class="form-control" type="text" id="productCategory" name="Pcats" required>
+          </div>
+          <button type="submit" class="btn customOffcanvaBtn">Cargar Producto</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script type="module" src="Js/components/sweetalert2.js"></script>
