@@ -67,6 +67,12 @@ btnC2.addEventListener('click', filterCategory2, false)
 
 // lista adminpanel
 
+const deleteItemOfList = async (idItem) => {
+  await fetch(`http://localhost:3000/products/${idItem}`, {
+  method: 'DELETE',
+});
+}
+
 const createItemList = async () => {
   getItemInfo = await getProducts();
   getItemInfo.map((item) => {
@@ -78,16 +84,10 @@ const createItemList = async () => {
     <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
      <div>
       <button class="btn btn-sm customOffcanvaBtn">editar</button>
-      <button class="btn btn-sm customOffcanvaBtn">eliminar</button>
+      <button class="btn btn-sm customOffcanvaBtn" onclick="deleteItemOfList(${item.id})">eliminar</button>
      </div>`
     listAdmin.appendChild(itemList)
   })
 };
 
 createItemList()
-
-const deleteItemOfList = async (idItem) => {
-  await fetch(`http://localhost:3000/products/${idItem}`, {
-  method: 'DELETE',
-});
-}
