@@ -1,7 +1,7 @@
 
 const getProducts = async () => {
   try {
-    const productResp = await fetch('http://localhost:3000/products')
+    const productResp = await fetch('http://localhost:3000/products/')
     const products = await productResp.json();
     return products;
   } catch (error) {
@@ -99,6 +99,35 @@ const createItem = async (e) => {
 
 itemFormData.addEventListener('submit', createItem, false)
 
+// edit item
+
+const editItemData = document.getElementById('formEdit1');
+
+const editItem = async (e) => {
+  e.preventDefault();
+  const editData = new FormData(e.target);
+  const finalEditData = Object.fromEntries(editData.entries());
+  console.log(finalEditData)
+  fetch(`http://localhost:3000/products/${finalEditData.eID}`, {
+  method: 'PUT',
+  body: JSON.stringify({
+    name: `${finalEditData.eName}`,
+    price: `${parseInt(finalEditData.ePrice)}`,
+    description: `${finalEditData.eDesc}`,
+    img: `${finalEditData.eImg}`,
+    stock: `${parseInt(finalEditData.eStock)}`,
+    category: `${finalEditData.eCat}`,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+}
+
+editItemData.addEventListener('submit', editItem, false);
+
 // lista adminpanel
 const createItemList = async () => {
   getItemInfo = await getProducts();
@@ -109,11 +138,12 @@ const createItemList = async () => {
     itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
     <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
      <div>
-      <button class="btn btn-sm customOffcanvaBtn">editar</button>
       <button class="btn btn-sm customOffcanvaBtn" onclick="deleteItemOfList(${item.id})">eliminar</button>
      </div>`
     listAdmin.appendChild(itemList)
   })
 };
 
-createItemList()
+const offcanvaToggler = document.getElementById('offcanvaToggler');
+offcanvaToggler.addEventListener('click', createItemList, false)
+ 
