@@ -13,6 +13,15 @@
       "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "stock": 0,
       "category": "Auriculares"
+    },
+    {
+      "name": "hola2",
+      "price": "707",
+      "description": "a",
+      "img": "noimg",
+      "stock": "7",
+      "category": "boca",
+      "id": 2
     }
   ]
 }
