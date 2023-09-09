@@ -85,7 +85,7 @@ const createItem = async (e) => {
     name: `${finalItem.Pname}`,
     price: `${parseInt(finalItem.Pprice)}`,
     description: `${finalItem.Pdesc}`,
-    img: 'https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg',
+    img: `${finalItem.Pimg}`,
     stock: `${parseInt(finalItem.Pstock)}`,
     category: `${finalItem.Pcats}`,
   }),
