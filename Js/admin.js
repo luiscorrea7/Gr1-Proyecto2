@@ -144,6 +144,5 @@ const createItemList = async () => {
   })
 };
 
-const offcanvaToggler = document.getElementById('offcanvaToggler');
-offcanvaToggler.addEventListener('click', createItemList, false)
+createItemList();
  
