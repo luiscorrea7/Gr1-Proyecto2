@@ -117,3 +117,9 @@ const createItemList = async () => {
 };
 
 createItemList()
+// desactivar botones form edit
+ 
+const disableInput = (id) => {
+  let test1 = document.getElementById(`${id}`);
+  test1.setAttribute('readonly', true);
+}
