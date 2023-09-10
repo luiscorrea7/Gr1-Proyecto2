@@ -18,10 +18,8 @@ const printItems = async () => {
     card.innerHTML =`
     <img src="${product.img}" class="card-img-top" alt="...">
     <div class="card-body text-center">
-      <h3 class="productName fw-bold fs-4">${product.name}</h3>
-      <p class="productCategory fs-5">${product.category}</p>
-      <p class="productPrice fs-5 fw-bolder">$${product.price}</p>
-      <a href="#" class="btn btnCustomCard">ver</a>
+      <a href="#" class="text-decoration-none text-white"><h3 class="productName fw-bold fs-4">${product.name}</h3></a>
+      <p class="productPrice fs-4 fw-bolder">$${product.price}</p>
     </div>`;
     containerCard.appendChild(card);
     card.addEventListener('mousemove', (e) => {
@@ -138,7 +136,7 @@ const createItemList = async () => {
     itemList.innerHTML = `<p class="fw-bolder fs-6 m-0 p-1">ID:${item.id}</p>
     <p class="fw-bold fs-6 m-0 p-1">${item.name}</p>
      <div>
-      <button class="btn btn-sm customOffcanvaBtn" onclick="deleteItemOfList(${item.id})">eliminar</button>
+      <button class="btn btn-sm customOffcanvaBtn" onclick="deleteItemOfList(${item.id})">X</button>
      </div>`
     listAdmin.appendChild(itemList)
   })

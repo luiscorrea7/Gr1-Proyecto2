@@ -12,13 +12,14 @@
     "loginBtn": "Login",
     "adminPanelBtn": "Admin Panel",
     "allCategoryBtn": "All",
-    "category1Btn": "",
-    "category2Btn": "",
-    "category3Btn": "",
+    "category1Btn": "Category 1",
+    "category2Btn": "Category 2",
+    "category3Btn": "Category 3",
     "loginClose": "Close",
     "loginSubmit": "Submit",
     "editBtnSubmit": "Edit item",
-    "createBtnSubmit": "Create item"
+    "createBtnSubmit": "Create item",
+    "cardBtn": "Buy"
   },
 
   "forms": {
