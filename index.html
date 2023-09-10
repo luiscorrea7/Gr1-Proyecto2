@@ -15,7 +15,16 @@
 </head>
 <body>
   <!-- header -->
-  <header>...</header>
+  <header>
+    <div class="d-flex" id="flags">
+      <div class="flag" data-language="es">
+        <img src="assets/icons/ar.svg" alt="arg flag">
+      </div>
+      <div class="flag" data-language="en">
+        <img src="assets/icons/us.svg" alt="usa flag">
+      </div>
+    </div>
+  </header>
 
   <!-- main -->
   <main>
@@ -75,7 +84,7 @@
     <div class="modal-dialog">
       <div class="modal-content bodyModal">
         <div class="modal-header footerHeaderModal">
-          <h1 class="modal-title fs-5 animate__animated animate__flipInY" id="modal1">Ingresar</h1>
+          <h1 class="modal-title fs-5 animate__animated animate__flipInY" id="modal1" data-section="titles" data-value="titleLogin">Ingresar</h1>
           <div>
             <img src="assets/icons/main-logo-white-transparent.png" alt="icono pagina" class="iconoModal">
           </div>
@@ -107,7 +116,7 @@
   
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvaAdmin" aria-labelledby="offCanvaTitle">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offCanvaTitle" data-section="titles">Panel de administrador</h5>
+      <h5 class="offcanvas-title" id="offCanvaTitle" data-section="titles" data-value="titleAdmin">Panel de administrador</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
@@ -118,13 +127,13 @@
       </div>
       <!-- lista productos -->
       <div class="listDiv mt-3 container">
-        <h5 class="text-center mb-5 listTitle">Lista de productos</h5>
+        <h5 class="text-center mb-5 listTitle" data-section="titles" data-value="titleAdminList">Lista de productos</h5>
         <ul id="listAdmin" class="p-0">
         </ul>
       </div>
       <!-- form cargar -->
       <div class="createItemDiv mt-3 container">
-        <h5 class="text-center mb-2 listTitle">Cargar producto</h5>
+        <h5 class="text-center mb-2 listTitle" data-section="titles" data-value="titleAdminCreate">Cargar producto</h5>
         <form id="formProduct1">
           <div class="listTitle text-center mb-2">
             <label class="form-label text-white px-1 fw-bold fs-6" for="productName">Nombre</label>
@@ -155,22 +164,22 @@
       </div>
       <!-- form edicion -->
       <div class="createItemDiv mt-3 container">
-        <h5 class="text-center mb-2 listTitle">Editar producto</h5>
+        <h5 class="text-center mb-2 listTitle" data-section="titles" data-value="titleAdminEdit">Editar producto</h5>
         <form id="formEdit1">
           <div class="listTitle text-center mb-2">
             <label class="form-label text-white px-1 fw-bold fs-6" for="editId">ID</label>
             <input class="form-control" type="text" id="editId" name="eID" required>
           </div>
           <div class="listTitle text-center mb-2">
-            <label class="form-label text-white px-1 fw-bold fs-6" for="nameEdit">Nombre</label>
+            <label class="form-label text-white px-1 fw-bold fs-6" for="nameEdit" data-section="forms" data-value="adminName">Nombre</label>
             <input class="form-control" type="text" id="nameEdit" name="eName" required>
           </div>
           <div class="listTitle text-center mb-2">
-            <label class="form-label text-white px-1 fw-bold fs-6" for="priceEdit">Precio</label>
+            <label class="form-label text-white px-1 fw-bold fs-6" for="priceEdit" data-section="forms" data-value="adminPrice">Precio</label>
             <input class="form-control" type="text" id="priceEdit" name="ePrice" required>
           </div>
           <div class="listTitle text-center mb-2">
-            <label class="form-label text-white px-1 fw-bold fs-6" for="descEdit">Descripcion</label>
+            <label class="form-label text-white px-1 fw-bold fs-6" for="descEdit" data-section="forms" data-value="adminDesc">Descripcion</label>
             <input class="form-control" type="text" id="descEdit" name="eDesc" required>
           </div>
           <div class="listTitle text-center mb-2">
@@ -178,11 +187,11 @@
             <input class="form-control" type="text" id="stockEdit" name="eStock" required>
           </div>
           <div class="listTitle text-center mb-2">
-            <label class="form-label text-white px-1 fw-bold fs-6" for="categoryEdit">Categoria</label>
+            <label class="form-label text-white px-1 fw-bold fs-6" for="categoryEdit" data-section="forms" data-value="adminCategory">Categoria</label>
             <input class="form-control" type="text" id="categoryEdit" name="eCat" required>
           </div>
           <div class="listTitle text-center mb-2">
-            <label class="form-label text-white px-1 fw-bold fs-6" for="imgEdit">Imagen(URL)</label>
+            <label class="form-label text-white px-1 fw-bold fs-6" for="imgEdit" data-section="forms" data-value="adminImg">Imagen(URL)</label>
             <input class="form-control" type="text" id="imgEdit" name="eImg" required>
           </div>
           <button type="submit" class="btn customOffcanvaBtn" data-section="buttons" data-value="editBtnSubmit">Editar Producto</button>
