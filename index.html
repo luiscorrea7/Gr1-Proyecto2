@@ -16,7 +16,37 @@
 <body>
   <!-- header -->
   <header>
-    <div class="d-flex" id="flags">
+    <nav class="navbar fixed-top bg-black navbar-expand-lg m-0 shadowNav">
+      <div class="container-fluid d-flex flex-column">
+        <a class="navbar-brand text-white m-0" id="navbarImg" href="index.html"><img src="assets/icons/main-logo-white-transparent.png" alt="icono tecnoRCS" class="imgNavbar"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white text-white text-center" aria-current="page" href="#" data-section="buttons" data-value="productsBtn">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a type="button" class="nav-link text-white text-center" data-bs-toggle="modal" data-bs-target="#modalA" data-section="buttons" data-value="loginBtn">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#" data-section="buttons" data-value="contactBtn">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white text-center nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin" id="offcanvaToggler" data-section="buttons" data-value="adminPanelBtn">
+                Panel de administrador
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- main -->
+  <main>
+    <div class="d-flex justify-content-center" id="flags">
       <div class="flag" id="argFlag" data-language="es">
         <img src="assets/icons/ar.svg" alt="arg flag">
       </div>
@@ -24,13 +54,7 @@
         <img src="assets/icons/us.svg" alt="usa flag">
       </div>
     </div>
-  </header>
 
-  <!-- main -->
-  <main>
-    <div class="d-flex">
-      <button type="button" class="btn btn-primary justify-content-center customModalBtn" data-bs-toggle="modal" data-bs-target="#modalA" data-section="buttons" data-value="loginBtn">Ingresar</button>
-    </div>
     <div class="container-fluid d-flex justify-content-center row containerMain g-0 m-0">
       <div class="row container col-11 col-md-11 col-lg-9 g-0 m-0 justify-content-evenly" id="cardContainer">
         <h2 class="text-center fw-bold text-white" data-section="titles" data-value="titleProducts">Productos Destacados</h2>
@@ -110,10 +134,6 @@
   </div>
 
   <!-- OffCanva -->
-  <button class="btn customOffcanvaBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin" id="offcanvaToggler" data-section="buttons" data-value="adminPanelBtn">
-    Panel de administrador
-  </button>
-  
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvaAdmin" aria-labelledby="offCanvaTitle">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title data-section="" data-value=""" id="offCanvaTitle" data-section="titles" data-value="titleAdmin">Panel de administrador</h5>

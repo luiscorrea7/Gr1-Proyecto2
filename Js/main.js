@@ -20,3 +20,11 @@ if (localStorage.getItem("lang") === 'en') {
   changeLang('es')
 }
 
+const imgNav = document.getElementById('navbarImg');
+
+document.addEventListener('scroll', () => {
+  imgNav.classList.add('imgMini')
+})
+document.addEventListener('scrollend', () => {
+    imgNav.classList.remove('imgMini');
+})

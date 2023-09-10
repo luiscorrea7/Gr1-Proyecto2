@@ -10,6 +10,8 @@
 
   "buttons": {
     "loginBtn": "Login",
+    "productsBtn": "Products",
+    "contactBtn": "Contact us",
     "adminPanelBtn": "Admin Panel",
     "allCategoryBtn": "All",
     "category1Btn": "Category 1",
