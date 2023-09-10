@@ -1,23 +1,27 @@
 import { changeLang } from "./language.js";
 // Idioma predeterminado 
-document.documentElement.setAttribute("lang", "en")
+
 
 const argFlag = document.getElementById('argFlag');
 argFlag.addEventListener('click', () => {
   localStorage.clear();
-  localStorage.setItem("lang", "es")
+  localStorage.setItem("lang", "es");
+  document.documentElement.setAttribute("lang", "es");
 })
 
 const usaFlag = document.getElementById('usaFlag');
 usaFlag.addEventListener('click', () => {
   localStorage.clear();
-  localStorage.setItem("lang", "en")
+  localStorage.setItem("lang", "en");
+  document.documentElement.setAttribute("lang", "en")
 })
 
 if (localStorage.getItem("lang") === 'en') {
-  changeLang('en')
+  changeLang('en');
+  document.documentElement.setAttribute("lang", "en")
 } else {
-  changeLang('es')
+  changeLang('es');
+  document.documentElement.setAttribute("lang", "es");
 }
 
 const imgNav = document.getElementById('navbarImg');

@@ -1,7 +1,7 @@
 
 const getProducts = async () => {
   try {
-    const productResp = await fetch('http://localhost:3000/products/')
+    const productResp = await fetch('http://localhost:3000/products?_limit=10')
     const products = await productResp.json();
     return products;
   } catch (error) {
