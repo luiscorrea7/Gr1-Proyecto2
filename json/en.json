@@ -1,0 +1,34 @@
+{
+  "titles": {
+    "titleProducts": "Popular Products",
+    "titleLogin": "Login",
+    "titleAdmin": "Admin panel",
+    "titleAdminList": "Products list",
+    "titleAdminCreate": "Create item",
+    "titleAdminEdit": "Edit item"
+  },
+
+  "buttons": {
+    "loginBtn": "Login",
+    "adminPanelBtn": "Admin Panel",
+    "allCategoryBtn": "All",
+    "category1Btn": "Category 1",
+    "category2Btn": "Category 2",
+    "category3Btn": "Category 3",
+    "loginClose": "Close",
+    "loginSubmit": "Submit",
+    "editBtnSubmit": "Edit item",
+    "createBtnSubmit": "Create item",
+    "cardBtn": "Buy"
+  },
+
+  "forms": {
+    "loginMail": "Mail",
+    "loginPassword": "Password",
+    "adminName": "Name",
+    "adminPrice": "Price",
+    "adminDesc": "Description",
+    "adminCategory": "Category",
+    "adminImg": "Image (url)"
+  }
+}

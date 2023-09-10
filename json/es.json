@@ -1,0 +1,33 @@
+{
+  "titles": {
+    "titleProducts": "Productos Destacados",
+    "titleLogin": "Ingresar",
+    "titleAdmin": "Panel de administrador",
+    "titleAdminList": "Lista de productos",
+    "titleAdminCreate": "Cargar Producto",
+    "titleAdminEdit": "Editar Producto"
+  },
+
+  "buttons": {
+    "loginBtn": "Ingresar",
+    "adminPanelBtn": "Panel de administrador",
+    "allCategoryBtn": "Todos",
+    "category1Btn": "Categoria 1",
+    "category2Btn": "Categoria 2",
+    "category3Btn": "Categoria 3",
+    "loginClose": "Cerrar",
+    "loginSubmit": "Enviar",
+    "editBtnSubmit": "Editar producto",
+    "createBtnSubmit": "Cargar producto"
+  },
+
+  "forms": {
+    "loginMail": "Correo",
+    "loginPassword": "Contraseña",
+    "adminName": "Nombre",
+    "adminPrice": "Precio",
+    "adminDesc": "Descripción",
+    "adminCategory": "Categoria",
+    "adminImg": "Imagen (url)"
+  }
+}

@@ -23,8 +23,8 @@ const alertas = {
   },
   badPassword: function () {
     Swal.fire({
-      title: 'Contraseña incorrecta',
-      text: "Vuelva a introducir su contraseña",
+      title: 'Contraseña o Email incorrectos',
+      text: "Vuelva a introducir sus datos",
       icon: 'warning',
       confirmButtonColor: 'orange',
       confirmButtonText: 'Reintentar'
