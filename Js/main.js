@@ -1,4 +1,5 @@
 import { changeLang } from "./language.js";
+
 // Idioma predeterminado 
 document.documentElement.setAttribute("lang", "en")
 
