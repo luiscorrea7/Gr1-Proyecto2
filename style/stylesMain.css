@@ -128,3 +128,14 @@ body {
 .carousel-item > img {
   height: 500px;
 }
+
+.adContainer > img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.adContainer{
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
