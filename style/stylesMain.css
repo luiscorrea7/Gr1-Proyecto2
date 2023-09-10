@@ -45,7 +45,10 @@ body {
 }
 
 .cardProduct {
-  background-color: #4a199a;
+  background-color: #290465;
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(74,25,154,1);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(74,25,154,1);
+  box-shadow: 0px 0px 16px 0px rgba(74,25,154,1);
   color: white;
   margin: 2px;
 }
@@ -157,4 +160,11 @@ body {
 
 body {
   margin-top: 180px;
+}
+
+.shadowNav {
+  border-bottom: 2px #4a199a solid;
+  -webkit-box-shadow: 0px 4px 12px 1px rgba(74,25,154,0.63);
+  -moz-box-shadow: 0px 4px 12px 1px rgba(74,25,154,0.63);
+  box-shadow: 0px 4px 12px 1px rgba(74,25,154,0.63);
 }
