@@ -11,6 +11,7 @@
   "buttons": {
     "loginBtn": "Login",
     "productsBtn": "Products",
+    "aboutUsBtn": "About Us",
     "contactBtn": "Contact us",
     "adminPanelBtn": "Admin Panel",
     "allCategoryBtn": "All",
