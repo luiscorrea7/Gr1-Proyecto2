@@ -124,3 +124,7 @@ body {
   padding: 10px;
   border-radius: 8px;
 }
+
+.carousel-item > img {
+  height: 500px;
+}
