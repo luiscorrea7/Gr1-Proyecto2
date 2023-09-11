@@ -9,6 +9,38 @@ const getProducts = async () => {
   }
 }
 
+const printItemDetails = async (id) => {
+  const itemEntries = await fetch(`http://localhost:3000/products/${id}`);
+  const itemData = await itemEntries.json();
+  let containerCard = document.getElementById('cardContainer');
+  containerCard.innerHTML="";
+  let divDetail = document.createElement('div');
+  divDetail.classList = 'd-flex justify-content-center m-0 p-0'
+  divDetail.innerHTML = `
+  <div class="container containerDetails row">
+          <div class="col-12 col-lg-12 p-2">
+            <div class="imgFatherDetail p-2">
+              <img src="${itemData.img}" alt="" class="imgDetail">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 p-2 justify-content-center">
+            <p class="fs-4 fw-bolder">${itemData.description}</p>
+          </div>
+          <div class="col-12 col-lg-6 p-2 justify-content-center">
+            <div class="">
+              <div><h3 class="fs-4 fw-bold">-Nombre: ${itemData.name}</h3></div>
+              <div><h3 class="fs-4 fw-bold">-Precio: ${itemData.price}</h3></div>
+              <div><h3 class="fs-4 fw-bold">-Categoria: ${itemData.category}</h3></div>
+              <div><h3 class="fs-4 fw-bold">-Disponibles: ${itemData.stock}</h3></div>
+              <div class="mt-5"><button class="btn btnCustomCard">Comprar</button></div>
+            </div>
+          </div>
+        </div>
+  `
+  containerCard.appendChild(divDetail)
+}
+
+
 const printItems = async () => {
   const productInfo = await getProducts();
   productInfo.map((product) => {
@@ -18,8 +50,9 @@ const printItems = async () => {
     card.innerHTML =`
     <img src="${product.img}" class="card-img-top" alt="...">
     <div class="card-body text-center">
-      <a href="#" class="text-decoration-none text-white"><h3 class="productName fw-bold fs-4">${product.name}</h3></a>
+      <h3>${product.name}</h3>
       <p class="productPrice fs-4 fw-bolder">$${product.price}</p>
+      <button class="btn btnCustomCard" onclick="printItemDetails(${product.id})">Comprar</button>
     </div>`;
     containerCard.appendChild(card);
     card.addEventListener('mousemove', (e) => {
@@ -28,7 +61,9 @@ const printItems = async () => {
   })
 }
 
-printItems();
+printItems()
+
+
 // Categoria todos
 let btncAll = document.getElementById('btnCategoryAll')
 
