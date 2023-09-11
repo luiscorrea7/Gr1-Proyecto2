@@ -7,8 +7,6 @@ export const changeLang = async (lang) => {
     const Tsection = await translateText.dataset.section;
     const Tvalue = await translateText.dataset.value;
     translateText.innerHTML=textJson[Tsection][Tvalue];
-    console.log(translateText)
-    console.log(Tvalue, Tsection)
   }
 }
 
