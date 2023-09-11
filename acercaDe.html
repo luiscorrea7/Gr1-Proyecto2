@@ -14,18 +14,57 @@
     <title>Sobre Nosotros</title>
 </head>
 <body class="bodyAboutUs">
+  <header>
+    <nav class="navbar fixed-top bg-black navbar-expand-lg m-0 shadowNav">
+      <div class="container-fluid d-flex flex-column">
+        <a class="navbar-brand text-white m-0" id="navbarImg" href="index.html"><img src="assets/icons/main-logo-white-transparent.png" alt="icono tecnoRCS" class="imgNavbar"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white text-white text-center" aria-current="page" href="#" data-section="buttons" data-value="productsBtn">Productos</a>
+            </li>
+            <li class="nav-item" id="loginBtn">
+              <a type="button" class="nav-link text-white text-center" data-bs-toggle="modal" data-bs-target="#modalA" data-section="buttons" data-value="loginBtn">Ingresar</a>
+            </li>
+            <li class="nav-item" id="logoutBtn">
+              <a type="button" class="nav-link text-white text-center" data-section="buttons" data-value="closeLogBtn">Cerrar sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#" data-section="buttons" data-value="contactBtn">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="acercaDe.html" data-section="buttons" data-value="aboutUsBtn">Acerca de</a>
+            </li>
+            <li class="nav-item" id="adminBtn">
+              <a class="text-white text-center nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin" id="offcanvaToggler" data-section="buttons" data-value="adminPanelBtn">
+              Panel de administrador
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
     <div class="container containerTitle">
-        <h1 class="text-center m-3">Sobre Nosotros</h1>
+        <h1 class="text-center m-3" data-section="titles" data-value="titleAboutUs">Sobre Nosotros</h1>
         <div class="d-flex justify-content-center">
           <img src="./assets/icons/main-logo-black-transparent.png" class=" logoTitle" alt="logo TecnoRCS">
         </div>
     </div>
 
-  <header>
-
-  </header>
 
   <main>
+    <div class="d-flex justify-content-center" id="flags">
+      <div class="flag" id="argFlag" data-language="es">
+        <img src="assets/icons/ar.svg" alt="arg flag">
+      </div>
+      <div class="flag" id="usaFlag" data-language="en">
+        <img src="assets/icons/us.svg" alt="usa flag">
+      </div>
+    </div>
     <div class="container mt-3">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-6">
@@ -36,7 +75,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Luis Correa</h5>
+                  <h5 class="card-title text-center fs-3 fw-bold">Luis Correa</h5>
                 </div>
               </div>
             </div>
@@ -48,7 +87,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Paul Hayward</h5>
+                  <h5 class="card-title text-center fs-3 fw-bold">Paul Hayward</h5>
                 </div>
               </div>
             </div>
@@ -60,7 +99,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Tamara Villagra</h5>
+                  <h5 class="card-title text-center fs-3 fw-bold">Tamara Villagra</h5>
                 </div>
               </div>
             </div>
@@ -72,51 +111,51 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Ivan Mena</h5>
+                  <h5 class="card-title text-center fs-3 fw-bold">Ivan Mena</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-10 col-lg-6 bg-white containerInfoP">
-          <p class="text-center fs-5 fw-bold">TecnoRSC es una tienda especializada en la venta de productos tecnológicos de vanguardia. Nuestra misión es proporcionar a nuestros clientes acceso a las últimas innovaciones tecnológicas y ofrecerles productos de alta calidad que mejoren su vida diaria, ya sea en el trabajo, el hogar o el entretenimiento.</p>
-          <h4>Productos y Servicios:</h4>
-          <p>Ofrecemos una amplia gama de productos tecnológicos que incluyen:</p>
+        <div class="col-10 col-lg-6 bg-white containerInfoP d-flex flex-column align-items-center justify-content-evenly text-center">
+          <p class="text-center fs-5 fw-bold" data-section="paragraphs" data-value="firstParaph">TecnoRSC es una tienda especializada en la venta de productos tecnológicos de vanguardia. Nuestra misión es proporcionar a nuestros clientes acceso a las últimas innovaciones tecnológicas y ofrecerles productos de alta calidad que mejoren su vida diaria, ya sea en el trabajo, el hogar o el entretenimiento.</p>
+          <h2 data-section="titles" data-value="firstTitleAbtUs">Productos y Servicios:</h2>
           <ul>
-            <li>Dispositivos Electrónicos: Desde smartphones y tabletas hasta laptops y computadoras de escritorio, ofrecemos una selección diversa de dispositivos electrónicos de las principales marcas.</li>
-            <li>Accesorios Tecnológicos: Complementamos nuestros dispositivos con una variedad de accesorios, como fundas, cargadores, auriculares, teclados, ratones y más.</li>
-            <li>Electrónica de Entretenimiento: TV de alta definición, sistemas de sonido, consolas de videojuegos y accesorios para la experiencia de entretenimiento en casa.</li>
+            <h4 data-section="paragraphs" data-value="secondParaph" class="fs-3 fw-bolder mb-4">Ofrecemos una amplia gama de productos tecnológicos que incluyen:</h4>
+            <li data-section="items" data-value="firstLiAboutUs" class="fs-5 fw-bold ">Dispositivos Electrónicos: Desde smartphones y tabletas hasta laptops y computadoras de escritorio, ofrecemos una selección diversa de dispositivos electrónicos de las principales marcas.</li>
+            <li data-section="items" data-value="secondLiAboutUs" class="fs-5 fw-bold ">Accesorios Tecnológicos: Complementamos nuestros dispositivos con una variedad de accesorios, como fundas, cargadores, auriculares, teclados, ratones y más.</li>
+            <li data-section="items" data-value="thirdLiAboutUs" class="fs-5 fw-bold ">Electrónica de Entretenimiento: TV de alta definición, sistemas de sonido, consolas de videojuegos y accesorios para la experiencia de entretenimiento en casa.</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="container-fluid row justify-content-center g-0">
-      <div class="container bg-white containerInfoP mt-3 m-0 col-11 col-md-10 justify-content-center">
+      <div class="container bg-white containerInfoP mt-3 m-0 col-11 col-md-10 justify-content-center d-flex flex-column align-items-center text-center">
         <p class="text-center fs-5 fw-bold">
-        <h3>Tecnologías y Librerías Utilizadas en el Proyecto</h3>
-        <p>En el desarrollo de nuestro proyecto, hemos empleado una serie de tecnologías y librerías que desempeñan un papel fundamental en la creación y gestión de nuestra aplicación. A continuación, detallamos cada una de ellas:</p>
+        <h3 data-section="titles" data-value="secondTitleAbtUs">Tecnologías y Librerías Utilizadas en el Proyecto</h3>
+        <p data-section="paragraphs" data-value="thirdParaph" class="fs-4">En el desarrollo de nuestro proyecto, hemos empleado una serie de tecnologías y librerías que desempeñan un papel fundamental en la creación y gestión de nuestra aplicación. A continuación, detallamos cada una de ellas:</p>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>BOOTSTRAP</li>
-          <li>GIT</li>
-          <li>GITHUB</li>
-          <li>FIGMA</li>
-          <li>TRELLO</li>
-          <li>SLACK</li>
-          <li>JAVASCRIPT</li>
-          <li>NODE.JS</li>
-          <li>Npm</li>
+          <li class="fs-5 fw-bold">HTML</li>
+          <li class="fs-5 fw-bold">CSS</li>
+          <li class="fs-5 fw-bold">BOOTSTRAP</li>
+          <li class="fs-5 fw-bold">GIT</li>
+          <li class="fs-5 fw-bold">GITHUB</li>
+          <li class="fs-5 fw-bold">FIGMA</li>
+          <li class="fs-5 fw-bold">TRELLO</li>
+          <li class="fs-5 fw-bold">SLACK</li>
+          <li class="fs-5 fw-bold">JAVASCRIPT</li>
+          <li class="fs-5 fw-bold">NODE.JS</li>
+          <li class="fs-5 fw-bold">Npm</li>
         </ul>  
   
-        <h3>Librerías Específicas:</h3>
+        <h3 data-section="titles" data-value="librariesTitle" class="mb-5">Librerías Específicas:</h3>
         <ul>
-          <li>JSONSERVER</li>
-          <li>SWEETALERT</li>
-          <li>ANIMATE.CSS</li>
+          <li class="fs-5 fw-bold">JSONSERVER</li>
+          <li class="fs-5 fw-bold">SWEETALERT</li>
+          <li class="fs-5 fw-bold">ANIMATE.CSS</li>
         </ul>
   
-        <p>En conjunto, estas tecnologías y librerías nos han permitido desarrollar un proyecto eficiente, visualmente atractivo y funcional. Cada una de ellas desempeña un papel fundamental en diferentes aspectos del proceso de desarrollo y colaboración en equipo. Gracias a estas herramientas, hemos logrado crear una aplicación web que cumple con nuestros objetivos y expectativas.</p>
+        <p data-section="paragraphs" data-value="fourthParaph" class="fs-4 mt-2 fw-bolder">En conjunto, estas tecnologías y librerías nos han permitido desarrollar un proyecto eficiente, visualmente atractivo y funcional. Cada una de ellas desempeña un papel fundamental en diferentes aspectos del proceso de desarrollo y colaboración en equipo. Gracias a estas herramientas, hemos logrado crear una aplicación web que cumple con nuestros objetivos y expectativas.</p>
   
         
       </div>
@@ -129,7 +168,8 @@
   <footer>
 
   </footer>
-
+    <script type="module" src="Js/main.js"></script>
+    <script type="module" src="Js/language.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
 </body>
 </html>

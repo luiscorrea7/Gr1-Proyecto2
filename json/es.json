@@ -5,7 +5,11 @@
     "titleAdmin": "Panel de administrador",
     "titleAdminList": "Lista de productos",
     "titleAdminCreate": "Cargar Producto",
-    "titleAdminEdit": "Editar Producto"
+    "titleAdminEdit": "Editar Producto",
+    "titleAboutUs": "Sobre Nosotros",
+    "firstTitleAbtUs": "Productos y Servicios:",
+    "secondTitleAbtUs": "Tecnologías y Librerías Utilizadas en el Proyecto",
+    "librariesTitle": "Librerías Específicas:"
   },
 
   "buttons": {
@@ -33,5 +37,18 @@
     "adminDesc": "Descripción",
     "adminCategory": "Categoria",
     "adminImg": "Imagen (url)"
+  },
+
+  "paragraphs": {
+    "firstParaph": "TecnoRSC es una tienda especializada en la venta de productos tecnológicos de vanguardia. Nuestra misión es proporcionar a nuestros clientes acceso a las últimas innovaciones tecnológicas y ofrecerles productos de alta calidad que mejoren su vida diaria, ya sea en el trabajo, el hogar o el entretenimiento.",
+    "secondParaph": "Ofrecemos una amplia gama de productos tecnológicos que incluyen:",
+    "thirdParaph": "En el desarrollo de nuestro proyecto, hemos empleado una serie de tecnologías y librerías que desempeñan un papel fundamental en la creación y gestión de nuestra aplicación. A continuación, detallamos cada una de ellas:",
+    "fourthParaph": "En conjunto, estas tecnologías y librerías nos han permitido desarrollar un proyecto eficiente, visualmente atractivo y funcional. Cada una de ellas desempeña un papel fundamental en diferentes aspectos del proceso de desarrollo y colaboración en equipo. Gracias a estas herramientas, hemos logrado crear una aplicación web que cumple con nuestros objetivos y expectativas."
+  },
+
+  "items": {
+    "firstLiAboutUs": "Dispositivos Electrónicos: Desde smartphones y tabletas hasta laptops y computadoras de escritorio, ofrecemos una selección diversa de dispositivos electrónicos de las principales marcas.",
+    "secondLiAboutUs": "Accesorios Tecnológicos: Complementamos nuestros dispositivos con una variedad de accesorios, como fundas, cargadores, auriculares, teclados, ratones y más.",
+    "thirdLiAboutUs": "Electrónica de Entretenimiento: TV de alta definición, sistemas de sonido, consolas de videojuegos y accesorios para la experiencia de entretenimiento en casa."
   }
 }

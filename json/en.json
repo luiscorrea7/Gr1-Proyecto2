@@ -5,7 +5,11 @@
     "titleAdmin": "Admin panel",
     "titleAdminList": "Products list",
     "titleAdminCreate": "Create item",
-    "titleAdminEdit": "Edit item"
+    "titleAdminEdit": "Edit item",
+    "titleAboutUs": "About Us",
+    "firstTitleAbtUs": "Products and services:",
+    "secondTitleAbtUs": "Technologies and Libraries Used in the Project",
+    "librariesTitle": "Specific Libraries:"
   },
 
   "buttons": {
@@ -34,5 +38,18 @@
     "adminDesc": "Description",
     "adminCategory": "Category",
     "adminImg": "Image (url)"
+  },
+
+  "paragraphs": {
+    "firstParaph": "TecnoRSC is a store specialized in the sale of cutting-edge technological products. Our mission is to provide our customers with access to the latest technological innovations and offer them high-quality products that improve their daily lives, whether at work, home or entertainment.",
+    "secondParaph": "We offer a wide range of technology products including:",
+    "thirdParaph": "In the development of our project, we have used a series of technologies and libraries that play a fundamental role in the creation and management of our application. Below, we detail each of them:",
+    "fourthParaph": "Together, these technologies and libraries have allowed us to develop an efficient, visually attractive and functional project. Each of them plays a fundamental role in different aspects of the team development and collaboration process. Thanks to these tools, we have managed to create a web application that meets our objectives and expectations."
+  },
+
+  "items": {
+    "firstLiAboutUs": "Electronic Devices: From smartphones and tablets to laptops and desktop computers, we offer a diverse selection of electronic devices from top brands.",
+    "secondLiAboutUs": "Technological Accessories: We complement our devices with a variety of accessories, such as cases, chargers, headphones, keyboards, mice and more.",
+    "thirdLiAboutUs": "Entertainment Electronics: High definition TVs, sound systems, video game consoles and accessories for the home entertainment experience."
   }
 }
