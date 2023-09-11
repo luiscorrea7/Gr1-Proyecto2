@@ -1,7 +1,7 @@
 
 const getProducts = async () => {
   try {
-    const productResp = await fetch('http://localhost:3000/products?_limit=10')
+    const productResp = await fetch('http://localhost:3000/products?_limit=9')
     const products = await productResp.json();
     return products;
   } catch (error) {
@@ -32,7 +32,9 @@ const printItemDetails = async (id) => {
               <div><h3 class="fs-4 fw-bold">-Precio: ${itemData.price}</h3></div>
               <div><h3 class="fs-4 fw-bold">-Categoria: ${itemData.category}</h3></div>
               <div><h3 class="fs-4 fw-bold">-Disponibles: ${itemData.stock}</h3></div>
+              <div><h3 class="fs-4 fw-bold">-ID: ${itemData.id}</h3></div>
               <div class="mt-5"><button class="btn btnCustomCard">Comprar</button></div>
+              <div class="mt-1"><button class="btn btnCustomCard" onclick="printItems()">Salir</button></div>
             </div>
           </div>
         </div>
@@ -43,8 +45,9 @@ const printItemDetails = async (id) => {
 
 const printItems = async () => {
   const productInfo = await getProducts();
+  let containerCard = document.getElementById('cardContainer');
+  containerCard.innerHTML=""
   productInfo.map((product) => {
-    let containerCard = document.getElementById('cardContainer');
     let card = document.createElement('div');
     card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${product.category} animate__animated`
     card.innerHTML =`
