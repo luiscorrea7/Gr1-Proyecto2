@@ -5,14 +5,14 @@ import { changeLang } from "./language.js";
 
 const argFlag = document.getElementById('argFlag');
 argFlag.addEventListener('click', () => {
-  localStorage.clear();
+  localStorage.removeItem('lang');
   localStorage.setItem("lang", "es");
   document.documentElement.setAttribute("lang", "es");
 })
 
 const usaFlag = document.getElementById('usaFlag');
 usaFlag.addEventListener('click', () => {
-  localStorage.clear();
+  localStorage.removeItem('lang')
   localStorage.setItem("lang", "en");
   document.documentElement.setAttribute("lang", "en")
 })
