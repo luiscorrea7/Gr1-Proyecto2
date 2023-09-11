@@ -27,8 +27,11 @@
             <li class="nav-item">
               <a class="nav-link active text-white text-white text-center" aria-current="page" href="#" data-section="buttons" data-value="productsBtn">Productos</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="loginBtn">
               <a type="button" class="nav-link text-white text-center" data-bs-toggle="modal" data-bs-target="#modalA" data-section="buttons" data-value="loginBtn">Ingresar</a>
+            </li>
+            <li class="nav-item" id="logoutBtn">
+              <a type="button" class="nav-link text-white text-center" data-section="buttons" data-value="closeLogBtn">Cerrar sesion</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white text-center" href="#" data-section="buttons" data-value="contactBtn">Contacto</a>
@@ -36,9 +39,9 @@
             <li class="nav-item">
               <a class="nav-link text-white text-center" href="#" data-section="buttons" data-value="aboutUsBtn">Acerca de</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="adminBtn">
               <a class="text-white text-center nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaAdmin" aria-controls="offCanvaAdmin" id="offcanvaToggler" data-section="buttons" data-value="adminPanelBtn">
-                Panel de administrador
+              Panel de administrador
               </a>
             </li>
           </ul>
@@ -229,7 +232,7 @@
   <script type="module" src="Js/main.js"></script>
   <script type="module" src="Js/login.js"></script>
   <script type="module" src="Js/language.js"></script>
-  <source src="Js/components/navbar.js">
+  <script type="module" src="Js/components/navbar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

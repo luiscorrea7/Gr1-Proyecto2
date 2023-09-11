@@ -30,6 +30,12 @@ const login = async (e) => {
  if (userData.email === finalData.email && userData.password !== finalData.password) {
   alertas.badPassword();
  }
+ localStorage.setItem("adminLog", "True");
 }
 
 formLogin.addEventListener('submit', login, false)
+
+export const logOut = () => {
+  localStorage.removeItem('adminLog');
+  window.location.reload()
+}

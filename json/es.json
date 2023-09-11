@@ -10,6 +10,7 @@
 
   "buttons": {
     "loginBtn": "Ingresar",
+    "closeLogBtn": "Cerrar Sesión",
     "productsBtn": "Productos",
     "aboutUsBtn": "Acerca de",
     "contactBtn": "Contactanos",
