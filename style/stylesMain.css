@@ -149,6 +149,9 @@ body {
 .flag {
   width: 40px;
 }
+.flag:hover {
+  cursor: pointer;
+}
 
 /* NavBar */
 
