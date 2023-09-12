@@ -79,6 +79,9 @@ btncAll.addEventListener('click', printItems, false)
 // Categoria 1
 let btnC1 = document.getElementById('btnCategory1')
 let btnC2 = document.getElementById('btnCategory2')
+let btnC3 = document.getElementById('btnCategory3')
+let btnC4 = document.getElementById('btnCategory4')
+let btnC5 = document.getElementById('btnCategory5')
 
 const filterCategory1 = async(category) => {
   const catInfo =  await fetch(`http://localhost:3000/products?category=${category}`)
@@ -104,6 +107,9 @@ const filterCategory1 = async(category) => {
 
 btnC1.addEventListener('click', e => filterCategory1('Auriculares'), false)
 btnC2.addEventListener('click', e => filterCategory1('Celulares'), false)
+btnC3.addEventListener('click', e => filterCategory1('Teclados'), false)
+btnC4.addEventListener('click', e => filterCategory1('Netbooks'), false)
+btnC5.addEventListener('click', e => filterCategory1('Mouses'), false)
 
 // borrar item
 const deleteItemOfList = async (idItem) => {
