@@ -88,6 +88,7 @@ const filterCategory = async(category) => {
   const catFinal = await catInfo.json();
   let containerCard = document.getElementById('cardContainer');
   containerCard.innerHTML="";
+  containerCard.innerHTML=`<h3 class="text-center text-white fs-4">${category}</h3>`
   catFinal.map((catItems) => {
     let card = document.createElement('div');
     card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${catItems.category} animate__animated`

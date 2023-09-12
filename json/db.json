@@ -187,15 +187,15 @@
     },
     {
       "id": 16,
-      "name": "HyperX Cloud Flight",
-      "price": 33000,
-      "description": "Los auriculares HyperX Cloud Flight son una opción excepcional para aquellos que buscan una experiencia de audio premium sin ataduras. Estos auriculares inalámbricos ofrecen un diseño elegante y cómodo que se adapta perfectamente a largas sesiones de juego o de escucha de música. Una de las características destacadas de los HyperX Cloud Flight es su impresionante calidad de sonido. Los controladores de 50 mm proporcionan un audio nítido y envolvente que te sumerge por completo en tu juego o música favorita.",
-      "img": "https://fullh4rd.com.ar/img/productos/28/auriculares-hp-hyperx-cloud-flight-wireless-pc-ps4-blackred-0.jpg",
-      "img2": "https://http2.mlstatic.com/D_NQ_NP_953814-MLA44243038325_122020-O.webp",
-      "img3": "https://www.infinitonline.com.ar/images/000000000000117938042concepto-5848201.jpg",
-      "img4": "https://images.unsplash.com/photo-1610547112565-d8e2f3a493fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SHlwZXIlMjBYfGVufDB8fDB8fHww&w=1000&q=80",
-      "stock": 3,
-      "category": "Auriculares"
+      "name": "Razer Viper",
+      "price": 17500,
+      "description": "El Razer Viper es un ratón para juegos que ha ganado una reputación sólida en la comunidad de jugadores debido a su diseño ergonómico, rendimiento excepcional y calidad de construcción. Este ratón es una excelente opción para jugadores competitivos y entusiastas que buscan una ventaja en los juegos. El Razer Viper es un ratón para juegos que ha ganado una reputación sólida en la comunidad de jugadores debido a su diseño ergonómico, rendimiento excepcional y calidad de construcción.",
+      "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-3346007.jpg",
+      "img2": "https://www.qloud.ar/SITES/ryr/fotos/19553-1.jpg",
+      "img3": "https://www.hard-digital.com.ar/public/files/Mouse%20Razer%20Viper%20Ambidextrous%2016000%20Dpi%20Negro/5.jpg",
+      "img4": "https://i.pinimg.com/736x/2c/63/f9/2c63f962ffbe00ca22abdb80f307bf79.jpg",
+      "stock": 7,
+      "category": "Mouses"
     },
     {
       "id": 17,
