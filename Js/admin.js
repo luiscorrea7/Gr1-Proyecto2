@@ -75,36 +75,35 @@ printItems()
 // Categoria todos
 let btncAll = document.getElementById('btnCategoryAll')
 
-const printAllCategories = () => {
-  let elementos = document.querySelectorAll('.card')
-  elementos.forEach(x => {
-    x.style.display = 'flex';
-  });
-}
-
-btncAll.addEventListener('click', printAllCategories, false)
+btncAll.addEventListener('click', printItems, false)
 // Categoria 1
 let btnC1 = document.getElementById('btnCategory1')
-
-const filterCategory1 = () => {
-  let elementos = document.querySelectorAll('.hola2')
-  elementos.forEach(x => {
-    x.style.display = 'none';
-  });
-}
-
-btnC1.addEventListener('click', filterCategory1, false)
-// Categoria 2
 let btnC2 = document.getElementById('btnCategory2')
 
-const filterCategory2 = () => {
-  let elementos = document.querySelectorAll('.hola')
-  elementos.forEach(x => {
-    x.style.display = 'none';
-  });
+const filterCategory1 = async(category) => {
+  const catInfo =  await fetch(`http://localhost:3000/products?category=${category}`)
+  const catFinal = await catInfo.json();
+  let containerCard = document.getElementById('cardContainer');
+  containerCard.innerHTML="";
+  catFinal.map((catItems) => {
+    let card = document.createElement('div');
+    card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${catItems.category} animate__animated`
+    card.innerHTML =`
+    <img src="${catItems.img}" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+      <h3>${catItems.name}</h3>
+      <p class="productPrice fs-4 fw-bolder">$${catItems.price}</p>
+      <button class="btn btnCustomCard" onclick="printItemDetails(${catItems.id})">Comprar</button>
+    </div>`;
+    containerCard.appendChild(card);
+    card.addEventListener('mousemove', (e) => {
+      card.classList.add('animate__pulse')
+    })
+  })
 }
 
-btnC2.addEventListener('click', filterCategory2, false)
+btnC1.addEventListener('click', e => filterCategory1('Auriculares'), false)
+btnC2.addEventListener('click', e => filterCategory1('Celulares'), false)
 
 // borrar item
 const deleteItemOfList = async (idItem) => {

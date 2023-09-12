@@ -92,14 +92,38 @@
     {
       "id": 8,
       "name": "HyperX Pulsefire",
-      "price": 12000,
+      "price": 17000,
       "description": "El HyperX Pulsefire es un mouse diseñado para satisfacer las demandas de los jugadores más exigentes. Con un sensor de alta precisión y una ergonomía cuidadosamente diseñada, este mouse ofrece un rendimiento excepcional y comodidad durante sesiones de juego prolongadas. Sus seis botones programables te permiten personalizar tu experiencia de juego y adaptarla a tus necesidades específicas.",
       "img": "https://oc-games.com.ar/image/cache/data/Mouse%20rojo-500x500.jpg",
-      "img2": "https://www.magtecnologia.com.ar/image/cache/data/1019-producto-astro-a10-xbox-1-4246-800x640.jpg",
-      "img3": "https://dpq25p1ucac70.cloudfront.net/seller-place-files/mrkl-files/1864/ELECTROHOGAR/A10%202%20MENTA.jpg",
-      "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
-      "stock": 7,
+      "img2": "https://falabella.scene7.com/is/image/Falabella/gsc_113147841_547639_2?wid=800&hei=800&qlt=70",
+      "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgNO3fvOmWQwkyNqQEfMPhd_h3H7d7Zy8WgA&usqp=CAU",
+      "img4": "https://images.unsplash.com/photo-1610547112565-d8e2f3a493fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SHlwZXIlMjBYfGVufDB8fDB8fHww&w=1000&q=80",
+      "stock": 3,
       "category": "Mouses"
+    },
+    {
+      "id": 9,
+      "name": "Redragon Kumara",
+      "price": 22000,
+      "description": "El teclado Redragon Kumara es una herramienta imprescindible para jugadores que buscan una ventaja competitiva. Equipado con interruptores mecánicos Outemu, el Kumara ofrece una respuesta táctil y audible, ideal para juegos que requieren una pulsación precisa y rápida. Su diseño compacto y sin teclado numérico permite una mayor movilidad del ratón, lo que es esencial para los juegos de ritmo rápido.",
+      "img": "https://http2.mlstatic.com/D_Q_NP_636746-MLA52350707355_112022-O.webp",
+      "img2": "https://etchile.net/wp-content/uploads/2023/03/redragon_KUMARA_K552-KR_SP_09.jpg",
+      "img3": "https://www.hard-digital.com.ar/public/files/Teclado%20Mecanico%20Redragon%20Kumara%20Rainbow%20Negro%20Switch%20Red/6.jpg",
+      "img4": "https://logowik.com/content/uploads/images/redragon102.logowik.com.webp",
+      "stock": 10,
+      "category": "Teclados"
+    },
+    {
+      "id": 10,
+      "name": "Iphone 14 Pro",
+      "price": 223000,
+      "description": "El teclado Redragon Kumara es una herramienta imprescindible para jugadores que buscan una ventaja competitiva. Equipado con interruptores mecánicos Outemu, el Kumara ofrece una respuesta táctil y audible, ideal para juegos que requieren una pulsación precisa y rápida. Su diseño compacto y sin teclado numérico permite una mayor movilidad del ratón, lo que es esencial para los juegos de ritmo rápido.",
+      "img": "https://www.macstation.com.ar/img/productos/3111-3.jpg",
+      "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06K-vO0HJTNtOHZnUYDmmRsk4UJjF1_cDkKxSwXqpuhgJjYKh7JLkXM6h6M6Rr2Wo3xE&usqp=CAU",
+      "img3": "https://i.ebayimg.com/images/g/B7YAAOSwpY5jrxIB/s-l1200.jpg",
+      "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
+      "stock": 7,
+      "category": "Celulares"
     }
   ]
 }
