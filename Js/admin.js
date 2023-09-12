@@ -17,29 +17,34 @@ const printItemDetails = async (id) => {
   let divDetail = document.createElement('div');
   divDetail.classList = 'd-flex justify-content-center m-0 p-0'
   divDetail.innerHTML = `
-  <div class="container containerDetails row">
-          <div class="col-12 col-lg-12 p-2">
-            <div class="imgFatherDetail p-2">
+  <div class="container containerDetails row justify-content-center">
+          <div class="col-12 col-lg-12 p-2 row justify-content-center">
+            <div class="imgFatherDetail p-2 col-12 col-lg-8">
               <img src="${itemData.img}" alt="" class="imgDetail">
             </div>
+            <div class="imgFatherDetail2 d-none d-lg-flex flex-column align-content-center justify-content-between p-2 col-4">
+              <img src="${itemData.img2}" alt="" class="imgDetail2">
+              <img src="${itemData.img3}" alt="" class="imgDetail2">
+              <img src="${itemData.img4}" alt="" class="imgDetail2">
+            </div>
           </div>
-          <div class="col-12 col-lg-6 p-2 justify-content-center">
-            <p class="fs-4 fw-bolder">${itemData.description}</p>
+          <div class="col-12 col-lg-6 p-2 justify-content-center detailDesc mb-2 d-none d-lg-block">
+            <p class="fs-4 text-center">${itemData.description}</p>
           </div>
-          <div class="col-12 col-lg-6 p-2 justify-content-center">
-            <div class="">
-              <div><h3 class="fs-4 fw-bold">-Nombre: ${itemData.name}</h3></div>
-              <div><h3 class="fs-4 fw-bold">-Precio: ${itemData.price}</h3></div>
-              <div><h3 class="fs-4 fw-bold">-Categoria: ${itemData.category}</h3></div>
-              <div><h3 class="fs-4 fw-bold">-Disponibles: ${itemData.stock}</h3></div>
-              <div><h3 class="fs-4 fw-bold">-ID: ${itemData.id}</h3></div>
+          <div class="col-12 col-lg-6 p-2 justify-content-center detailData mb-2">
+            <div class="d-flex flex-column text-center">
+              <div><h3 class="fs-4 fw-bold mb-3">-Nombre: ${itemData.name}</h3></div>
+              <div><h3 class="fs-4 fw-bold mb-3">-Precio: $${itemData.price}</h3></div>
+              <div><h3 class="fs-4 fw-bold mb-3">-Categoria: ${itemData.category}</h3></div>
+              <div><h3 class="fs-4 fw-bold mb-3">-Disponibles: ${itemData.stock}</h3></div>
+              <div><h3 class="fs-4 fw-bold mb-3">-ID: ${itemData.id}</h3></div>
               <div class="mt-5"><button class="btn btnCustomCard">Comprar</button></div>
               <div class="mt-1"><button class="btn btnCustomCard" onclick="printItems()">Salir</button></div>
             </div>
           </div>
         </div>
   `
-  containerCard.appendChild(divDetail)
+  containerCard.appendChild(divDetail);
 }
 
 
