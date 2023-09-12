@@ -122,8 +122,32 @@
       "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06K-vO0HJTNtOHZnUYDmmRsk4UJjF1_cDkKxSwXqpuhgJjYKh7JLkXM6h6M6Rr2Wo3xE&usqp=CAU",
       "img3": "https://i.ebayimg.com/images/g/B7YAAOSwpY5jrxIB/s-l1200.jpg",
       "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
-      "stock": 7,
+      "stock": 2,
       "category": "Celulares"
+    },
+    {
+      "id": 11,
+      "name": "Logitech g203",
+      "price": 13000,
+      "description": "El Logitech G203 es un mouse diseñado para llevar tu experiencia de juego al siguiente nivel. Con un diseño ergonómico y un sensor de alta precisión, este mouse es perfecto para juegos de ritmo rápido y precisión milimétrica. Su sensor de 8,000 DPI ajustable te permite adaptar la sensibilidad a tu estilo de juego y preferencias. Los seis botones programables brindan una personalización total, lo que te permite asignar comandos y macros para una mayor ventaja competitiva.",
+      "img": "https://fullh4rd.com.ar/img/productos/14/mouse-logitech-g203-gaming-lightsync-black-910005793-0.jpg",
+      "img2": "https://www.venex.com.ar/products_images/1597440443_iil224907641025.png",
+      "img3": "https://www.mink.com.ar/qloud/ryr/fotos/21598-1.jpg",
+      "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
+      "stock": 7,
+      "category": "Mouses"
+    },
+    {
+      "id": 12,
+      "name": "Macbook Pro",
+      "price": 413000,
+      "description": "El Logitech G203 es un mouse diseñado para llevar tu experiencia de juego al siguiente nivel. Con un diseño ergonómico y un sensor de alta precisión, este mouse es perfecto para juegos de ritmo rápido y precisión milimétrica. Su sensor de 8,000 DPI ajustable te permite adaptar la sensibilidad a tu estilo de juego y preferencias. Los seis botones programables brindan una personalización total, lo que te permite asignar comandos y macros para una mayor ventaja competitiva.",
+      "img": "https://backonline.cl/cdn/shop/products/MacBook_Pro_13_in_Silver_PDP_Image_Position-1_CLES.jpg?v=1690317219",
+      "img2": "https://www.appleperu.pe/wp-content/uploads/macbook-pro-retina.jpg",
+      "img3": "https://images.macrumors.com/t/UPq9pV8r0w-WrtvIYJGa3mMlRLw=/1600x1200/smart/article-new/2021/10/macbook-pro-box-apple.png",
+      "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
+      "stock": 3,
+      "category": "Netbooks"
     }
   ]
 }

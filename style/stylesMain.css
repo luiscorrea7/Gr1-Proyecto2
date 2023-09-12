@@ -218,12 +218,12 @@ body {
 }
 
 .detailData {
-  border: black solid 2px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #784BC3;
+  color: white;
 }
 .detailDesc {
-  border: black solid 2px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #290465;
+  color: white;
 }

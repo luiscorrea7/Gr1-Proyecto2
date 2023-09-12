@@ -83,7 +83,7 @@ let btnC3 = document.getElementById('btnCategory3')
 let btnC4 = document.getElementById('btnCategory4')
 let btnC5 = document.getElementById('btnCategory5')
 
-const filterCategory1 = async(category) => {
+const filterCategory = async(category) => {
   const catInfo =  await fetch(`http://localhost:3000/products?category=${category}`)
   const catFinal = await catInfo.json();
   let containerCard = document.getElementById('cardContainer');
@@ -105,11 +105,11 @@ const filterCategory1 = async(category) => {
   })
 }
 
-btnC1.addEventListener('click', e => filterCategory1('Auriculares'), false)
-btnC2.addEventListener('click', e => filterCategory1('Celulares'), false)
-btnC3.addEventListener('click', e => filterCategory1('Teclados'), false)
-btnC4.addEventListener('click', e => filterCategory1('Netbooks'), false)
-btnC5.addEventListener('click', e => filterCategory1('Mouses'), false)
+btnC1.addEventListener('click', e => filterCategory('Auriculares'), false)
+btnC2.addEventListener('click', e => filterCategory('Celulares'), false)
+btnC3.addEventListener('click', e => filterCategory('Teclados'), false)
+btnC4.addEventListener('click', e => filterCategory('Netbooks'), false)
+btnC5.addEventListener('click', e => filterCategory('Mouses'), false)
 
 // borrar item
 const deleteItemOfList = async (idItem) => {
