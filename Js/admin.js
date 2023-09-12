@@ -176,7 +176,8 @@ editItemData.addEventListener('submit', editItem, false);
 
 // lista adminpanel
 const createItemList = async () => {
-  getItemInfo = await getProducts();
+  const initialInfo = await fetch("http://localhost:3000/products");
+  const getItemInfo = await initialInfo.json()
   getItemInfo.map((item) => {
     let listAdmin = document.getElementById('listAdmin')
     let itemList = document.createElement('li');
