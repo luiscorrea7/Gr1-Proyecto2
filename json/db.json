@@ -6,376 +6,364 @@
   },
   "products": [
     {
-      "id": 1,
       "name": "Iphone 13 Pro Max",
-      "price": 210000,
+      "price": "210000",
       "description": "El iPhone 13 Pro Max de Apple representa la cúspide de la tecnología y el diseño de smartphones. Con su impresionante pantalla Super Retina XDR de 6.7 pulgadas, obtendrás una experiencia visual incomparable con colores vibrantes y negros profundos. El rendimiento es de otro nivel gracias al chip A15 Bionic, que garantiza una fluidez excepcional en cualquier tarea. La cámara tríada de 12 MP te permite capturar fotos y videos impresionantes.",
       "img": "https://www.ubuy.com.ar/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvMzgyNzZmMTctN2Q2Yy00NmRkLWJhYTItMDlhYThhNWJkMTJkLjk0YjRiZmRiZDc1YWE4ZjI0NzhhNmU1MzEzNDljYWM4LmpwZWc.jpg",
       "img2": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone13-Pro-alpine-green-hero-2up-220308_big_carousel.jpg.slideshow-large_2x.jpg",
       "img3": "https://static-sl.insales.ru/images/products/1/5423/479802671/large_Screenshot_2021-10-14_at_10.55.44.png",
       "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
-      "stock": 7,
-      "category": "Celulares"
+      "stock": "7",
+      "category": "Celulares",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "Logitech G635",
-      "price": 22000,
+      "price": "22000",
       "description": "Los auriculares Logitech G635 ofrecen una experiencia de audio excepcional para los verdaderos entusiastas del gaming. Sumérgete en tus juegos favoritos con un sonido nítido y potente, gracias a los altavoces Pro-G de 50 mm. Comunícate con tus compañeros de equipo con claridad absoluta gracias al micrófono con cancelación de ruido y disfruta de una comodidad inigualable durante sesiones de juego prolongadas",
       "img": "https://www.deffo.com.ar/wp-content/uploads/2022/08/981-000748-4.webp",
       "img2": "https://www.mink.com.ar/qloud/ryr/fotos/19014-1.jpg",
       "img3": "https://www.venex.com.ar/products_images/1557242218_audifonosgamerlogitechg63571lightsync981000748d_nq_np_889258mlm29840415840_042019f.jpg",
       "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
-      "stock": 5,
-      "category": "Auriculares"
+      "stock": "5",
+      "category": "Auriculares",
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Acer Nitro 5",
-      "price": 290000,
+      "price": "290000",
       "description": "La Acer Nitro 5 es una verdadera joya para los entusiastas de los juegos. Con un potente hardware y un diseño elegante, este portátil gaming ofrece un rendimiento excepcional en cada partida. Equipado con procesadores de última generación y tarjetas gráficas de alto rendimiento, su pantalla Full HD y sistema de refrigeración avanzado garantizan una experiencia de juego suave y sin sobrecalentamientos.",
       "img": "https://i0.wp.com/hardcorecomputacion.com.ar/wp-content/uploads/2022/08/ACERNITRO5.jpg?fit=1088%2C1088&ssl=1",
       "img2": "https://mexx-img-2019.s3.amazonaws.com/Notebook-Gamer-Acer-Nitro-5-Ryzen-7-8Gb-Ssd-512Gb-GTX1650-4Gb-15-Win11_45290_3.jpeg",
       "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDn2ldwh-5rLxGt1u_zoR6ss5Q2viOqr8WBw&usqp=CAU",
       "img4": "https://static.vecteezy.com/system/resources/previews/022/424/604/original/acer-logo-free-vector.jpg",
-      "stock": 3,
-      "category": "Netbooks"
+      "stock": "3",
+      "category": "Netbooks",
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Logitech G Pro",
-      "price": 24000,
+      "price": "24000",
       "description": "El teclado Logitech G PRO es una herramienta esencial para los jugadores competitivos que buscan un rendimiento excepcional. Diseñado en colaboración con jugadores profesionales, este teclado ofrece una experiencia de juego de alto nivel. Con interruptores mecánicos avanzados, la pulsación de teclas es rápida y precisa, lo que te brinda una ventaja en juegos de alta velocidad. La retroiluminación RGB personalizable te permite adaptar el aspecto de tu teclado a tu estilo personal o a tu configuración de juego.",
       "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/E45BasNN5hX8YP8rp6dz/imagen",
       "img2": "https://katech.com.ar/wp-content/uploads/TGA047_1-jpg.webp",
       "img3": "https://plazavea.vteximg.com.br/arquivos/ids/3005170/image-d820b3750ce44e73ba545280c301a267.jpg?v=637723325376430000",
       "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
       "stock": "1",
-      "category": "Teclados"
+      "category": "Teclados",
+      "id": 4
     },
     {
-      "id": 5,
       "name": "Lenovo V15",
-      "price": 195000,
+      "price": "195000",
       "description": "La Lenovo V15 es una opción sólida para aquellos que buscan un portátil confiable y versátil. Con un diseño elegante y duradero, este portátil se adapta perfectamente tanto a las necesidades profesionales como a las personales. Equipado con procesadores potentes y una pantalla nítida, la V15 te permite realizar tareas diarias con facilidad, desde trabajar en documentos hasta disfrutar de contenido multimedia. Su teclado cómodo y su amplia variedad de puertos hacen que sea fácil de usar en cualquier entorno.",
       "img": "https://www.laeditorial.com.ar/30577-large_default/notebook-lenovo-v15-amd-ryzen-5-8gb-256gb.jpg",
       "img2": "https://mla-s1-p.mlstatic.com/809257-MLA70680243281_072023-F.jpg",
       "img3": "https://http2.mlstatic.com/D_NQ_NP_916528-MLA51077692229_082022-O.webp",
       "img4": "https://static.vecteezy.com/system/resources/previews/020/927/329/original/lenovo-logo-brand-phone-symbol-name-black-design-china-mobile-illustration-with-red-background-free-vector.jpg",
       "stock": "3",
-      "category": "Netbooks"
+      "category": "Netbooks",
+      "id": 5
     },
     {
-      "id": 6,
       "name": "Razer Blackshark V2",
-      "price": 19000,
+      "price": "19000",
       "description": "Los auriculares Razer BlackShark V2 te sumergen en el mundo del gaming con un audio de alta calidad y características avanzadas. Experimenta un sonido inmersivo y claro gracias a los controladores Razer Triforce Titanium de 50 mm y el micrófono con cancelación de ruido HyperClear. La comodidad es clave para sesiones de juego prolongadas, y estos auriculares ofrecen almohadillas de espuma viscoelástica y un diseño ergonómico.",
       "img": "https://http2.mlstatic.com/D_Q_NP_799188-MLA45812996972_052021-O.webp",
       "img2": "https://acdn.mitiendanube.com/stores/599/423/products/14355-11-35e392d82f03e9c12416097840713253-640-0.jpg",
       "img3": "https://http2.mlstatic.com/D_NQ_NP_881586-MLU70811149257_082023-O.webp",
       "img4": "https://i.pinimg.com/736x/2c/63/f9/2c63f962ffbe00ca22abdb80f307bf79.jpg",
       "stock": "Sin Stock",
-      "category": "Auriculares"
+      "category": "Auriculares",
+      "id": 6
     },
     {
-      "id": 7,
       "name": "Astro A10",
-      "price": 12000,
+      "price": "12000",
       "description": "Los Astro A10 ofrecen una experiencia de juego envolvente con altavoces de 40 mm para un sonido potente, un micrófono con cancelación de ruido para una comunicación nítida y una construcción duradera para sesiones de juego prolongadas. Además, su comodidad y compatibilidad universal los convierten en la elección perfecta para jugadores de todas las plataformas. ",
       "img": "https://mla-s1-p.mlstatic.com/709591-MLA41051245879_032020-F.jpg",
       "img2": "https://www.magtecnologia.com.ar/image/cache/data/1019-producto-astro-a10-xbox-1-4246-800x640.jpg",
       "img3": "https://dpq25p1ucac70.cloudfront.net/seller-place-files/mrkl-files/1864/ELECTROHOGAR/A10%202%20MENTA.jpg",
       "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
-      "stock": 7,
-      "category": "Auriculares"
+      "stock": "7",
+      "category": "Auriculares",
+      "id": 7
     },
     {
-      "id": 8,
       "name": "HyperX Pulsefire",
-      "price": 17000,
+      "price": "17000",
       "description": "El HyperX Pulsefire es un mouse diseñado para satisfacer las demandas de los jugadores más exigentes. Con un sensor de alta precisión y una ergonomía cuidadosamente diseñada, este mouse ofrece un rendimiento excepcional y comodidad durante sesiones de juego prolongadas. Sus seis botones programables te permiten personalizar tu experiencia de juego y adaptarla a tus necesidades específicas.",
       "img": "https://oc-games.com.ar/image/cache/data/Mouse%20rojo-500x500.jpg",
       "img2": "https://falabella.scene7.com/is/image/Falabella/gsc_113147841_547639_2?wid=800&hei=800&qlt=70",
       "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgNO3fvOmWQwkyNqQEfMPhd_h3H7d7Zy8WgA&usqp=CAU",
       "img4": "https://images.unsplash.com/photo-1610547112565-d8e2f3a493fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SHlwZXIlMjBYfGVufDB8fDB8fHww&w=1000&q=80",
-      "stock": 3,
-      "category": "Mouses"
+      "stock": "3",
+      "category": "Mouses",
+      "id": 8
     },
     {
-      "id": 9,
       "name": "Redragon Kumara",
-      "price": 22000,
+      "price": "22000",
       "description": "El teclado Redragon Kumara es una herramienta imprescindible para jugadores que buscan una ventaja competitiva. Equipado con interruptores mecánicos Outemu, el Kumara ofrece una respuesta táctil y audible, ideal para juegos que requieren una pulsación precisa y rápida. Su diseño compacto y sin teclado numérico permite una mayor movilidad del ratón, lo que es esencial para los juegos de ritmo rápido.",
       "img": "https://http2.mlstatic.com/D_Q_NP_636746-MLA52350707355_112022-O.webp",
       "img2": "https://etchile.net/wp-content/uploads/2023/03/redragon_KUMARA_K552-KR_SP_09.jpg",
       "img3": "https://www.hard-digital.com.ar/public/files/Teclado%20Mecanico%20Redragon%20Kumara%20Rainbow%20Negro%20Switch%20Red/6.jpg",
       "img4": "https://logowik.com/content/uploads/images/redragon102.logowik.com.webp",
-      "stock": 10,
-      "category": "Teclados"
+      "stock": "10",
+      "category": "Teclados",
+      "id": 9
     },
     {
-      "id": 10,
       "name": "Iphone 14 Pro",
-      "price": 423000,
+      "price": "423000",
       "description": "El iPhone 14 Pro de Apple representa la cúspide de la tecnología y el diseño de smartphones. Con su impresionante pantalla Super Retina XDR de 6.7 pulgadas, obtendrás una experiencia visual incomparable con colores vibrantes y negros profundos. El rendimiento es de otro nivel gracias al chip A16 Bionic, que garantiza una fluidez excepcional en cualquier tarea. La cámara tríada de 16 MP te permite capturar fotos y videos impresionantes.",
       "img": "https://www.macstation.com.ar/img/productos/3111-3.jpg",
       "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06K-vO0HJTNtOHZnUYDmmRsk4UJjF1_cDkKxSwXqpuhgJjYKh7JLkXM6h6M6Rr2Wo3xE&usqp=CAU",
       "img3": "https://i.ebayimg.com/images/g/B7YAAOSwpY5jrxIB/s-l1200.jpg",
       "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
-      "stock": 2,
-      "category": "Celulares"
+      "stock": "2",
+      "category": "Celulares",
+      "id": 10
     },
     {
-      "id": 11,
       "name": "Logitech g203",
-      "price": 13000,
+      "price": "13000",
       "description": "El Logitech G203 es un mouse diseñado para llevar tu experiencia de juego al siguiente nivel. Con un diseño ergonómico y un sensor de alta precisión, este mouse es perfecto para juegos de ritmo rápido y precisión milimétrica. Su sensor de 8,000 DPI ajustable te permite adaptar la sensibilidad a tu estilo de juego y preferencias. Los seis botones programables brindan una personalización total, lo que te permite asignar comandos y macros para una mayor ventaja competitiva.",
       "img": "https://fullh4rd.com.ar/img/productos/14/mouse-logitech-g203-gaming-lightsync-black-910005793-0.jpg",
       "img2": "https://www.venex.com.ar/products_images/1597440443_iil224907641025.png",
       "img3": "https://www.mink.com.ar/qloud/ryr/fotos/21598-1.jpg",
       "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
-      "stock": 7,
-      "category": "Mouses"
+      "stock": "7",
+      "category": "Mouses",
+      "id": 11
     },
     {
-      "id": 12,
       "name": "Macbook Pro",
-      "price": 413000,
+      "price": "413000",
       "description": "El MacBook Pro es una línea de computadoras portátiles de alto rendimiento fabricadas por Apple. Estos equipos son conocidos por su potencia, calidad de construcción y diseño elegante. Son famosos por su diseño delgado y elegante, construidos con materiales de alta calidad como aluminio. Ofrecen un rendimiento excepcional gracias a sus potentes procesadores, y su pantalla es reconocida por su calidad y resolución. Los MacBook Pro son una opción popular tanto para usuarios profesionales como para aquellos que buscan una experiencia de usuario premium.",
       "img": "https://backonline.cl/cdn/shop/products/MacBook_Pro_13_in_Silver_PDP_Image_Position-1_CLES.jpg?v=1690317219",
       "img2": "https://www.appleperu.pe/wp-content/uploads/macbook-pro-retina.jpg",
       "img3": "https://images.macrumors.com/t/UPq9pV8r0w-WrtvIYJGa3mMlRLw=/1600x1200/smart/article-new/2021/10/macbook-pro-box-apple.png",
       "img4": "https://image.freepik.com/iconos-gratis/mac-os_318-10374.jpg",
-      "stock": 3,
-      "category": "Netbooks"
+      "stock": "3",
+      "category": "Netbooks",
+      "id": 12
     },
     {
-      "id": 13,
       "name": "HyperX Cloud Flight",
-      "price": 33000,
+      "price": "33000",
       "description": "Los auriculares HyperX Cloud Flight son una opción excepcional para aquellos que buscan una experiencia de audio premium sin ataduras. Estos auriculares inalámbricos ofrecen un diseño elegante y cómodo que se adapta perfectamente a largas sesiones de juego o de escucha de música. Una de las características destacadas de los HyperX Cloud Flight es su impresionante calidad de sonido. Los controladores de 50 mm proporcionan un audio nítido y envolvente que te sumerge por completo en tu juego o música favorita.",
       "img": "https://fullh4rd.com.ar/img/productos/28/auriculares-hp-hyperx-cloud-flight-wireless-pc-ps4-blackred-0.jpg",
       "img2": "https://http2.mlstatic.com/D_NQ_NP_953814-MLA44243038325_122020-O.webp",
       "img3": "https://www.infinitonline.com.ar/images/000000000000117938042concepto-5848201.jpg",
       "img4": "https://images.unsplash.com/photo-1610547112565-d8e2f3a493fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SHlwZXIlMjBYfGVufDB8fDB8fHww&w=1000&q=80",
-      "stock": 9,
-      "category": "Auriculares"
+      "stock": "9",
+      "category": "Auriculares",
+      "id": 13
     },
     {
-      "id": 14,
       "name": "Samsung S23 Ultra",
-      "price": 233000,
+      "price": "233000",
       "description": "El Samsung Galaxy S22 Ultra es una verdadera joya de la tecnología móvil que ofrece una experiencia premium en todos los aspectos. Este teléfono inteligente combina un diseño elegante con especificaciones de vanguardia y características innovadoras para brindar a los usuarios una experiencia excepcional. El rendimiento del Galaxy S22 Ultra es excepcional gracias a su potente procesador, que permite ejecutar aplicaciones exigentes y juegos con facilidad.",
       "img": "https://images.start.com.ar/SM-S918BZKMARO-4.jpg",
       "img2": "https://images.samsung.com/es/smartphones/galaxy-s23-ultra/buy/03_Color_Selection/S23Ultra_Basic_Color/S23Ultra_Cream_MO.jpg",
       "img3": "https://m.media-amazon.com/images/I/61LKCRtPhrL.jpg",
       "img4": "https://assets.entrepreneur.com/content/1x1/300/1635808163-samsung-square.jpg?format=pjeg&auto=webp",
-      "stock": 2,
-      "category": "Celulares"
+      "stock": "2",
+      "category": "Celulares",
+      "id": 14
     },
     {
-      "id": 15,
       "name": "Redragon Dragonborn",
-      "price": 21000,
+      "price": "21000",
       "description": "El teclado Redragon Dragonborn es una herramienta imprescindible para jugadores que buscan una ventaja competitiva. Equipado con interruptores mecánicos Outemu, el Kumara ofrece una respuesta táctil y audible, ideal para juegos que requieren una pulsación precisa y rápida. Su diseño compacto en layout 60% permite una mayor movilidad del ratón, lo que es esencial para los juegos de ritmo rápido.",
       "img": "https://mexx-img-2019.s3.amazonaws.com/Teclado-Gamer-Redragon-K630-Dragonborn-Negro-Switch-Marron_45445_5.jpeg",
       "img2": "https://mexx-img-2019.s3.amazonaws.com/Teclado-Gamer-Redragon-K630-Dragonborn-Negro-Switch-Marron_45445_1.jpeg",
       "img3": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_29733_Teclado_Mecanico_Redragon_Dragonborn_K630_RGB_60__Outemu_Brown_78af3f9b-grn.jpg",
       "img4": "https://logowik.com/content/uploads/images/redragon102.logowik.com.webp",
-      "stock": 9,
-      "category": "Teclados"
+      "stock": "9",
+      "category": "Teclados",
+      "id": 15
     },
     {
-      "id": 16,
       "name": "Razer Viper",
-      "price": 17500,
+      "price": "17500",
       "description": "El Razer Viper es un ratón para juegos que ha ganado una reputación sólida en la comunidad de jugadores debido a su diseño ergonómico, rendimiento excepcional y calidad de construcción. Este ratón es una excelente opción para jugadores competitivos y entusiastas que buscan una ventaja en los juegos. El Razer Viper es un ratón para juegos que ha ganado una reputación sólida en la comunidad de jugadores debido a su diseño ergonómico, rendimiento excepcional y calidad de construcción.",
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-3346007.jpg",
       "img2": "https://www.qloud.ar/SITES/ryr/fotos/19553-1.jpg",
       "img3": "https://www.hard-digital.com.ar/public/files/Mouse%20Razer%20Viper%20Ambidextrous%2016000%20Dpi%20Negro/5.jpg",
       "img4": "https://i.pinimg.com/736x/2c/63/f9/2c63f962ffbe00ca22abdb80f307bf79.jpg",
-      "stock": 7,
-      "category": "Mouses"
+      "stock": "7",
+      "category": "Mouses",
+      "id": 16
     },
     {
-      "id": 17,
       "name": "Acer Swift 3",
-      "price": 233000,
+      "price": "233000",
       "description": "La Acer Swift 3 es una serie de portátiles ultradelgadas y livianas que se destacan por ofrecer un equilibrio notable entre rendimiento, portabilidad y precio. Estos portátiles son populares entre aquellos que desean una computadora portátil versátil que sea adecuada tanto para la productividad diaria como para el entretenimiento ocasional. Se destaca por su diseño delgado y elegante que la hace fácil de transportar. Los materiales de construcción son de alta calidad, y su chasis de aluminio le da una sensación de solidez.",
       "img": "https://spacegamer.com.ar/img/Public/1058-producto-front-21149-5589.jpg",
       "img2": "https://spacegamer.com.ar/img/Public/1058-producto-left-19545-572.jpg",
       "img3": "https://acf.geeknetic.es/imagenes/noticias/2020/18040-acer-swift-3-muestra.jpg",
       "img4": "https://static.vecteezy.com/system/resources/previews/022/424/604/original/acer-logo-free-vector.jpg",
       "stock": "Sin Stock",
-      "category": "Netbooks"
+      "category": "Netbooks",
+      "id": 17
     },
     {
-      "id": 18,
       "name": "Moto Edge40",
-      "price": 183000,
+      "price": "183000",
       "description": "El Motorola Edge 40 se destaca por su pantalla OLED curvada de 6.7 pulgadas, que se extiende hacia los bordes del dispositivo, lo que le da un aspecto elegante y moderno. La calidad de la pantalla es impresionante, con colores vibrantes y negros profundos, y una alta resolución que ofrece una experiencia visual de alta calidad. Además, la tasa de refresco de 144 Hz asegura una experiencia de desplazamiento suave y una respuesta más rápida en general.",
       "img": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202305/22/00157063606651009_1__640x640.jpg",
       "img2": "https://elektragt.vtexassets.com/arquivos/ids/191111-800-auto?v=638247149413700000&width=800&height=auto&aspect=true",
       "img3": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/edge40_vivamagenta.jpg",
       "img4": "https://static.vecteezy.com/system/resources/previews/020/927/137/non_2x/motorola-brand-logo-phone-symbol-with-name-white-design-usa-mobile-illustration-with-blue-background-free-vector.jpg",
-      "stock": 3,
-      "category": "Celulares"
+      "stock": "3",
+      "category": "Celulares",
+      "id": 18
     },
     {
-      "id": 19,
       "name": "Razer Blackwidow",
-      "price": 23000,
+      "price": "23000",
       "description": "El Razer BlackWidow es un teclado mecánico de alta calidad, reconocido por su durabilidad y respuesta táctil. Su diseño elegante y retroiluminación personalizable lo convierten en una opción atractiva. Este teclado es una herramienta confiable tanto para jugadores apasionados como para usuarios que valoran una experiencia de escritura excepcional.",
       "img": "https://tiendas.contapyme.com.ar/clientes/goodgames/archivos/images/1/image_3544.jpeg",
       "img2": "https://dcmallio.vtexassets.com/arquivos/ids/3121973-800-800?v=637877097698500000&width=800&height=800&aspect=true",
       "img3": "https://www.hard-digital.com.ar/public/files/Teclado%20Mecanico%20Razer%20Blackwidow%20V3%20Tkl%20Negro%20Rgb%20Switch%20Green/4.jpg",
       "img4": "https://i.pinimg.com/736x/2c/63/f9/2c63f962ffbe00ca22abdb80f307bf79.jpg",
-      "stock": 5,
-      "category": "Teclados"
+      "stock": "5",
+      "category": "Teclados",
+      "id": 19
     },
     {
-      "id": 20,
       "name": "Logitech G502",
-      "price": 29000,
+      "price": "29000",
       "description": "El Logitech G502 es un ratón gaming que destaca por su combinación de rendimiento y comodidad. Su diseño ergonómico se adapta cómodamente a la mano, mientras que su sensor de alta precisión ofrece un seguimiento excepcional. Además, cuenta con botones personalizables y una rueda de desplazamiento que lo convierten en una opción versátil tanto para juegos como para tareas diarias. La calidad de construcción sólida de Logitech garantiza durabilidad a largo plazo.",
       "img": "https://mexx-img-2019.s3.amazonaws.com/38348_1.jpeg",
       "img2": "https://www.qloud.com.ar/SITES/IMG/hypergaming-01-2020/117_06-04-2023-03-04-48-910-0055661.jpg",
       "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrY80mNS4FPCjtnt1kk0cPwLX01guJZiCFSg&usqp=CAU",
       "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvzWKuM3w9y01bAziL70t10yXCU1he2RUcg&usqp=CAU",
-      "stock": 6,
-      "category": "Mouses"
+      "stock": "6",
+      "category": "Mouses",
+      "id": 20
     },
     {
-      "id": 21,
       "name": "Asus ZenBook Duo",
-      "price": 529000,
+      "price": "529000",
       "description": "El Asus ZenBook Duo es una laptop innovadora que presenta un diseño único con dos pantallas: una pantalla principal y una pantalla secundaria táctil ScreenPad Plus. Esta configuración revolucionaria mejora la productividad y la creatividad al permitirte realizar múltiples tareas de manera eficiente y personalizar tu flujo de trabajo. Además, el ZenBook Duo ofrece un rendimiento sólido gracias a sus componentes de alta gama, lo que lo convierte en una opción atractiva para profesionales y creativos en busca de una experiencia informática versátil y potente.",
       "img": "https://hardcorecomputacion.com.ar/wp-content/uploads/2022/11/Asus-Zenbook-UX482-w11-1100-x1000-1-600x545-1.jpg",
       "img2": "https://images.start.com.ar/UX8402ZA-M3045W-365.-2.jpg",
       "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5qkUgz1vALSaUElHFrKjZtvqQo_76RZxO3VWIDxXv1xmpJ-bPctaNTPZeTDY6WOhMx0&usqp=CAU",
       "img4": "https://static.vecteezy.com/system/resources/previews/019/136/445/non_2x/asus-logo-asus-icon-free-free-vector.jpg",
       "stock": "Sin Stock",
-      "category": "Netbooks"
+      "category": "Netbooks",
+      "id": 21
     },
     {
-      "id": 22,
       "name": "Redragon Lamia V2",
-      "price": 19000,
+      "price": "19000",
       "description": "El Redragon Lamia2 es un auricular estéreo para juegos de la marca Redragon. Este auricular ofrece una experiencia de audio inmersiva para jugadores y usuarios que buscan una calidad de sonido decente a un precio asequible. Con un diseño cómodo y ajustable, es adecuado para sesiones de juego prolongadas. Aunque no se encuentra entre los auriculares de gama alta, el Lamia2 ofrece una buena relación calidad-precio y es una opción sólida para aquellos que buscan un auricular de juego funcional y económico.",
       "img": "https://mexx-img-2019.s3.amazonaws.com/39333_3.jpeg",
       "img2": "https://nissei.com/media/catalog/product/cache/16a9529cefd63504739dab4fc3414065/6/8/68603.jpg",
       "img3": "https://www.kobyinversiones.com/wp-content/uploads/2021/12/lamia-2-Blanco-3.jpg",
       "img4": "https://logowik.com/content/uploads/images/redragon102.logowik.com.webp",
-      "stock": 7,
-      "category": "Auriculares"
+      "stock": "7",
+      "category": "Auriculares",
+      "id": 22
     },
     {
-      "id": 23,
       "name": "Samsung Z Fold 4",
-      "price": 533000,
+      "price": "533000",
       "description": "El Galaxy Z Fold presenta un diseño plegable que le permite transformarse de un teléfono convencional en una tablet más grande cuando se despliega. La pantalla principal es un panel AMOLED de 7.6 pulgadas de alta resolución que ofrece colores vibrantes y una experiencia visual impresionante. Cuando está plegado, el teléfono tiene una pantalla externa de 6.2 pulgadas para un uso más fácil con una sola mano.",
       "img": "https://images.fravega.com/f500/b569e9cf6a6afdc78099c68cd7892e09.jpg",
       "img2": "https://www.oscarbarbieri.com/pub/media/catalog/product/cache/7baadf0dec41407c7702efdbff940ecb/9/7/974c34132536e73677d2273ddb68.jpg",
       "img3": "https://depor.com/resizer/aQmHjs7-9JLKAnXk9GDENOBEh9s=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/U3EF77MZBNHT3KWU62HTYGHBAM.jpg",
       "img4": "https://assets.entrepreneur.com/content/1x1/300/1635808163-samsung-square.jpg?format=pjeg&auto=webp",
       "stock": "Sin Stock",
-      "category": "Celulares"
+      "category": "Celulares",
+      "id": 23
     },
     {
-      "id": 24,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "3",
+      "category": "",
+      "id": 24
     },
     {
-      "id": 25,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "",
+      "category": "",
+      "id": 25
     },
     {
-      "id": 17,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "",
+      "category": "",
+      "id": 26
     },
     {
-      "id": 26,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "",
+      "category": "",
+      "id": 27
     },
     {
-      "id": 27,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "",
+      "category": "",
+      "id": 28
     },
     {
-      "id": 28,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
+      "stock": "",
+      "category": "",
+      "id": 29
     },
     {
-      "id": 29,
       "name": "",
-      "price": 33000,
+      "price": "",
       "description": "",
       "img": "",
       "img2": "",
       "img3": "",
       "img4": "",
-      "stock": 3,
-      "category": ""
-    },
-    {
-      "id": 30,
-      "name": "",
-      "price": 33000,
-      "description": "",
-      "img": "",
-      "img2": "",
-      "img3": "",
-      "img4": "",
-      "stock": 3,
-      "category": ""
-    } 
+      "stock": "",
+      "category": "",
+      "id": 30
+    }
   ]
 }

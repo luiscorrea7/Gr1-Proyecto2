@@ -126,14 +126,18 @@ const createItem = async (e) => {
   e.preventDefault();
   const dataItem = new FormData(e.target);
   const finalItem = Object.fromEntries(dataItem.entries());
+  console.log(finalItem)
   await fetch('http://localhost:3000/products', {
   method: 'POST',
   body: JSON.stringify({
     name: `${finalItem.Pname}`,
-    price: `${parseInt(finalItem.Pprice)}`,
+    price: `${finalItem.Pprice}`,
     description: `${finalItem.Pdesc}`,
     img: `${finalItem.Pimg}`,
-    stock: `${parseInt(finalItem.Pstock)}`,
+    img2: `${finalItem.Pimg1}`,
+    img3: `${finalItem.Pimg2}`,
+    img4: `${finalItem.Pimg3}`,
+    stock: `${finalItem.Pstock}`,
     category: `${finalItem.Pcats}`,
   }),
   headers: {
@@ -159,10 +163,13 @@ const editItem = async (e) => {
   method: 'PUT',
   body: JSON.stringify({
     name: `${finalEditData.eName}`,
-    price: `${parseInt(finalEditData.ePrice)}`,
+    price: `${finalEditData.ePrice}`,
     description: `${finalEditData.eDesc}`,
     img: `${finalEditData.eImg}`,
-    stock: `${parseInt(finalEditData.eStock)}`,
+    img2: `${finalEditData.eImg1}`,
+    img3: `${finalEditData.eImg2}`,
+    img4: `${finalEditData.eImg3}`,
+    stock: `${finalEditData.eStock}`,
     category: `${finalEditData.eCat}`,
   }),
   headers: {
