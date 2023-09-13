@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
 /* Modal */
 .bodyModal {
   background-color: #784BC3;

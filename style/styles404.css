@@ -1,0 +1,31 @@
+body{
+    background-color:black;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width:100%;
+}
+h1{
+    color: azure;
+    font-size: 20px;
+    padding: 25px;
+}
+a{
+    text-decoration:none ;
+    padding: 13px 30px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgb(38, 182, 167);
+    color: bisque;
+}
+@media screen and (max-width:630px){
+    h1{
+       
+    font-size: 20px;    
+      }
+    
+}
