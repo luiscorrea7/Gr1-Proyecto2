@@ -9,7 +9,9 @@
     "titleAboutUs": "Sobre Nosotros",
     "firstTitleAbtUs": "Productos y Servicios:",
     "secondTitleAbtUs": "Tecnologías y Librerías Utilizadas en el Proyecto",
-    "librariesTitle": "Librerías Específicas:"
+    "librariesTitle": "Librerías Específicas:",
+    "footerProductsTitle": "Productos",
+    "mediaTitle": "Nuestras redes sociales:"
   },
 
   "buttons": {
@@ -28,7 +30,10 @@
     "loginClose": "Cerrar",
     "loginSubmit": "Enviar",
     "editBtnSubmit": "Editar producto",
-    "createBtnSubmit": "Cargar producto"
+    "createBtnSubmit": "Cargar producto",
+    "registerFooterBtn": "Registrarse",
+    "deliveryFooterBtn": "Envios a todo el pais",
+    "consultsFooterBtn": "Consultas"
   },
 
   "forms": {
@@ -42,7 +47,7 @@
   },
 
   "paragraphs": {
-    "firstParaph": "TecnoRSC es una tienda especializada en la venta de productos tecnológicos de vanguardia. Nuestra misión es proporcionar a nuestros clientes acceso a las últimas innovaciones tecnológicas y ofrecerles productos de alta calidad que mejoren su vida diaria, ya sea en el trabajo, el hogar o el entretenimiento.",
+    "firstParaph": "TecnoRCS es una tienda especializada en la venta de productos tecnológicos de vanguardia. Nuestra misión es proporcionar a nuestros clientes acceso a las últimas innovaciones tecnológicas y ofrecerles productos de alta calidad que mejoren su vida diaria, ya sea en el trabajo, el hogar o el entretenimiento.",
     "secondParaph": "Ofrecemos una amplia gama de productos tecnológicos que incluyen:",
     "thirdParaph": "En el desarrollo de nuestro proyecto, hemos empleado una serie de tecnologías y librerías que desempeñan un papel fundamental en la creación y gestión de nuestra aplicación. A continuación, detallamos cada una de ellas:",
     "fourthParaph": "En conjunto, estas tecnologías y librerías nos han permitido desarrollar un proyecto eficiente, visualmente atractivo y funcional. Cada una de ellas desempeña un papel fundamental en diferentes aspectos del proceso de desarrollo y colaboración en equipo. Gracias a estas herramientas, hemos logrado crear una aplicación web que cumple con nuestros objetivos y expectativas."
