@@ -42,6 +42,7 @@ body {
   margin: 0;
   padding: 5px;
   margin-top: 170px;
+  padding: 0;
 }
 
 .containerMain {
@@ -260,4 +261,7 @@ body {
 .copySection {
   background-color: #290465;
   color: white;
+}
+.mainSection {
+  background-color: black;
 }
