@@ -232,3 +232,18 @@ body {
   background-color: #290465;
   color: white;
 }
+
+.containerProducts {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cardHorizontal {
+  width: 550px;
+}
+
+.imgProdAll {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}

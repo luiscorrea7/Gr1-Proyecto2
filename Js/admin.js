@@ -54,7 +54,7 @@ const printItems = async () => {
   containerCard.innerHTML=""
   productInfo.map((product) => {
     let card = document.createElement('div');
-    card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${product.category} animate__animated`
+    card.classList ="card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct animate__animated"
     card.innerHTML =`
     <img src="${product.img}" class="card-img-top" alt="...">
     <div class="card-body text-center">
