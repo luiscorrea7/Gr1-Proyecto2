@@ -38,7 +38,7 @@ const printItemDetails = async (id) => {
               <div><h3 class="fs-4 fw-bold mb-3">-Categoria: ${itemData.category}</h3></div>
               <div><h3 class="fs-4 fw-bold mb-3">-Disponibles: ${itemData.stock}</h3></div>
               <div><h3 class="fs-4 fw-bold mb-3">-ID: ${itemData.id}</h3></div>
-              <div class="mt-5"><button class="btn btnCustomCard">Comprar</button></div>
+              <div class="mt-5"><a href="404.html" class="btn btnCustomCard">Comprar</a></div>
               <div class="mt-1"><button class="btn btnCustomCard" onclick="printItems()">Salir</button></div>
             </div>
           </div>
