@@ -15,7 +15,7 @@ const printItemDetails = async (id) => {
   let containerCard = document.getElementById('cardContainer');
   containerCard.innerHTML="";
   let divDetail = document.createElement('div');
-  divDetail.classList = 'd-flex justify-content-center m-0 p-0'
+  divDetail.classList = 'd-flex justify-content-center m-0 p-0 animate__animated animate__fadeIn'
   divDetail.innerHTML = `
   <div class="container containerDetails row justify-content-center">
           <div class="col-12 col-lg-12 p-2 row justify-content-center">
@@ -54,7 +54,7 @@ const printItems = async () => {
   containerCard.innerHTML=""
   productInfo.map((product) => {
     let card = document.createElement('div');
-    card.classList ="card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct animate__animated"
+    card.classList ="card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct animate__animated animate__fadeIn"
     card.innerHTML =`
     <img src="${product.img}" class="card-img-top" alt="...">
     <div class="card-body text-center">
@@ -91,7 +91,7 @@ const filterCategory = async(category) => {
   containerCard.innerHTML=`<h3 class="text-center text-white fs-4">${category}</h3>`
   catFinal.map((catItems) => {
     let card = document.createElement('div');
-    card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${catItems.category} animate__animated`
+    card.classList =`card col-12 col-md-5 col-lg-3 justify-content-center my-4 cardProduct ${catItems.category} animate__animated animate__fadeIn`
     card.innerHTML =`
     <img src="${catItems.img}" class="card-img-top" alt="...">
     <div class="card-body text-center">

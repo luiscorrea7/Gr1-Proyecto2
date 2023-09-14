@@ -15,7 +15,7 @@ const printAllProducts = async () => {
   const productsContainer = document.getElementById('productContainer');
   allItemsInfo.map((items) => {
     let cardProduct = document.createElement('div');
-    cardProduct.classList ="card cardHorizontal mb-3 col-12 col-md-5 col-lg-6 text-bg-dark p-0"
+    cardProduct.classList ="card cardHorizontal mb-3 col-12 col-md-5 col-lg-6 text-bg-dark p-0 animate__animated animate__fadeInDown"
     cardProduct.innerHTML = `
     <div class="row g-0">
       <div class="col-md-4 p-2">
